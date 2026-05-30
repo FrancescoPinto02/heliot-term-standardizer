@@ -1,0 +1,32 @@
+[project]
+name = "heliot-term-standardizer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "FrancescoPinto02",email = "francesco.pintop@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic (>=2.13.4,<3.0.0)",
+    "pandas (>=3.0.3,<4.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "unidecode (>=1.4.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.15,<0.16.0)",
+    "pytest (>=9.0.3,<10.0.0)",
+    "mypy (>=2.1.0,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    { include = "heliot_terms", from = "src" }
+]

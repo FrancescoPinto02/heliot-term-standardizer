@@ -1,0 +1,11 @@
+{
+  "num_concepts": 741,
+  "num_aliases": 6796,
+  "num_drug_products": 938,
+  "num_drug_brands": 331,
+  "num_ambiguous_aliases": 0,
+  "num_unsafe_short_aliases": 43,
+  "num_unresolved_product_ingredients": 0,
+  "num_ambiguous_brands": 29,
+  "issues": []
+}

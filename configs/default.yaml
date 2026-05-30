@@ -1,0 +1,51 @@
+project:
+  name: heliot-term-standardizer
+  version: 0.1.0
+
+paths:
+  raw_drugs_csv: data/raw/drugs.csv
+  raw_synonyms_json: data/raw/synonyms.json
+  processed_dir: data/processed
+  indexes_dir: data/indexes
+
+standardization:
+  output_language: en
+  note_output_policy: annotate
+
+knowledge_base:
+  include_active_ingredients: true
+  include_inactive_ingredients: true
+  include_drug_products: true
+  include_drug_brands: true
+
+aliases:
+  min_safe_alias_length: 5
+  enable_short_aliases: false
+  include_technical_aliases_in_exact_index: false
+  short_alias_requires_context: true
+
+drug_brands:
+  enabled: true
+  annotate_active_ingredients: true
+  include_excipients_for_brand_mentions: false
+  include_excipients_for_exact_product_mentions: false
+  ambiguous_brand_policy: structured_only
+
+drug_names:
+  split_on_asterisk: true
+  generate_short_brand_variants: false
+  include_full_product_name_alias: true
+  include_base_product_name_alias: true
+
+matcher:
+  deterministic:
+    type: aho_corasick
+    enabled: true
+
+fallbacks:
+  fuzzy:
+    enabled: false
+  embeddings:
+    enabled: false
+  llm:
+    enabled: false

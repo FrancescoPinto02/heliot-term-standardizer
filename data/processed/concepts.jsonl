@@ -1,0 +1,741 @@
+{"concept_id":"active:acefillinato_di_ambroxolo","entity_type":"active","canonical_it":"acefillinato di ambroxolo","canonical_en":"Ambroxol acefillinate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acetato_di_magnesio_tetraidrato","entity_type":"active","canonical_it":"acetato di magnesio tetraidrato","canonical_en":"Magnesium acetate tetrahydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acetato_di_potassio","entity_type":"active","canonical_it":"acetato di potassio","canonical_en":"Potassium acetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acetato_di_sodio_triidrato","entity_type":"active","canonical_it":"acetato di sodio triidrato","canonical_en":"Sodium acetate trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acetato_di_zinco_diidrato","entity_type":"active","canonical_it":"acetato di zinco diidrato","canonical_en":"Zinc acetate dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acetossietilcefuroxima","entity_type":"active","canonical_it":"acetossietilcefuroxima","canonical_en":"acetossietilcefuroxima","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_acetilsalicilico","entity_type":"active","canonical_it":"acido acetilsalicilico","canonical_en":"Acetylsalicylic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_ascorbico","entity_type":"active","canonical_it":"acido ascorbico","canonical_en":"Ascorbic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_aspartico","entity_type":"active","canonical_it":"acido aspartico","canonical_en":"Aspartic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_fusidico","entity_type":"active","canonical_it":"acido fusidico","canonical_en":"Fusidic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_gadoterico","entity_type":"active","canonical_it":"acido gadoterico","canonical_en":"gadoteric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_glutammico","entity_type":"active","canonical_it":"acido glutammico","canonical_en":"Glutamic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_malico_0_67_g","entity_type":"active","canonical_it":"acido malico 0,67 g","canonical_en":"malic acid 0.67 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:acido_paraminobenzoico_sale_sodico","entity_type":"active","canonical_it":"acido paraminobenzoico (sale sodico)","canonical_en":"Sodium salt of para-aminobenzoic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:adalimumab","entity_type":"active","canonical_it":"adalimumab","canonical_en":"adalimumab","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:alanina","entity_type":"active","canonical_it":"alanina","canonical_en":"Alanine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:alfacalcidolo","entity_type":"active","canonical_it":"alfacalcidolo","canonical_en":"alfacalcidol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amido_poli_ossi2idrossietilico_hes_100_0_g","entity_type":"active","canonical_it":"amido poli(ossi-2-idrossietilico) (hes) 100,0 g","canonical_en":"Poly(oxy-2-hydroxyethyl) starch (HES) 100.0 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amisulpride","entity_type":"active","canonical_it":"amisulpride","canonical_en":"Amisulpride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amlodipina","entity_type":"active","canonical_it":"amlodipina","canonical_en":"Amlodipine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amoxicillina","entity_type":"active","canonical_it":"amoxicillina","canonical_en":"Amoxicillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amoxicillina_anidra","entity_type":"active","canonical_it":"amoxicillina anidra","canonical_en":"Amoxicillin anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amoxicillina_sodica","entity_type":"active","canonical_it":"amoxicillina sodica","canonical_en":"Sodium amoxicillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amoxicillina_triidrata","entity_type":"active","canonical_it":"amoxicillina triidrata","canonical_en":"Amoxicillin trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:amoxicillina_triidrato_cristallina","entity_type":"active","canonical_it":"amoxicillina triidrato cristallina","canonical_en":"Amoxicillin trihydrate crystalline","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ampicillina","entity_type":"active","canonical_it":"ampicillina","canonical_en":"Ampicillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ampicillina_anidra","entity_type":"active","canonical_it":"ampicillina anidra","canonical_en":"Ampicillin anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ampicillina_come_sodica","entity_type":"active","canonical_it":"ampicillina (come sodica)","canonical_en":"ampicillin (as sodium)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ampicillina_sodica","entity_type":"active","canonical_it":"ampicillina sodica","canonical_en":"Ampicillin sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ampicillina_triidrata","entity_type":"active","canonical_it":"ampicillina triidrata","canonical_en":"Ampicillin trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:antigeni_di_superficie_del_virus_dellinfluenza_emoagglutinina_e_neuraminidasi_del_ceppo_a_vietnam_1194_2004_h5n1","entity_type":"active","canonical_it":"antigeni di superficie del virus dell’influenza (emoagglutinina e neuraminidasi) del ceppo: a/vietnam/1194/2004 (h5n1)","canonical_en":"Surface antigens of the influenza virus (hemagglutinin and neuraminidase) of the strain: a/vietnam/1194/2004 (h5n1)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:arabogalattanosolfato_di_chinidina","entity_type":"active","canonical_it":"arabogalattano-solfato di chinidina","canonical_en":"Arabogalactan-quinidine sulfate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:atocoferolo_acetato_vit_e","entity_type":"active","canonical_it":"α-tocoferolo acetato (vit. e)","canonical_en":"α-tocopherol acetate (vit. e)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:atorvastatina","entity_type":"active","canonical_it":"atorvastatina","canonical_en":"atorvastatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:atorvastatinacalcio_triidrato","entity_type":"active","canonical_it":"atorvastatina-calcio triidrato","canonical_en":"atorvastatin calcium trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:benzidamina_cloridrato","entity_type":"active","canonical_it":"benzidamina cloridrato","canonical_en":"benzydamine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:betametasone_valerato","entity_type":"active","canonical_it":"betametasone valerato","canonical_en":"betamethasone valerate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:bilastina","entity_type":"active","canonical_it":"bilastina","canonical_en":"bilastina","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:bromuro_di_vecuronio","entity_type":"active","canonical_it":"bromuro di vecuronio","canonical_en":"Vecuronium bromide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:bupivacaina_cloridrato","entity_type":"active","canonical_it":"bupivacaina cloridrato","canonical_en":"bupivacaine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:buprenorfina","entity_type":"active","canonical_it":"buprenorfina","canonical_en":"Buprenorphine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:buprenorfina_cloridrato","entity_type":"active","canonical_it":"buprenorfina cloridrato","canonical_en":"buprenorphine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:calcio_gluconato","entity_type":"active","canonical_it":"calcio gluconato","canonical_en":"calcium gluconate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:candesartan_cilexetil","entity_type":"active","canonical_it":"candesartan cilexetil","canonical_en":"candesartan cilexetil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:carbamazepina","entity_type":"active","canonical_it":"carbamazepina","canonical_en":"Carbamazepine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:carbocisteina","entity_type":"active","canonical_it":"carbocisteina","canonical_en":"Carbocisteine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:carboplatino_cisdiamino_1_1ciclobutandicarbossilato_platino","entity_type":"active","canonical_it":"carboplatino (cis-diamino (1,1-ciclobutandicarbossilato) platino)","canonical_en":"carboplatin (cis-diammine(1,1-cyclobutanedicarboxylato)platinum)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefazolina","entity_type":"active","canonical_it":"cefazolina","canonical_en":"cefazolin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefazolina_acida","entity_type":"active","canonical_it":"cefazolina acida","canonical_en":"cefazolin acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefazolina_sodica","entity_type":"active","canonical_it":"cefazolina sodica","canonical_en":"Sodium cefazolin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ceftriaxone","entity_type":"active","canonical_it":"ceftriaxone","canonical_en":"Ceftriaxone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ceftriaxone_bisodico","entity_type":"active","canonical_it":"ceftriaxone bisodico","canonical_en":"Ceftriaxone disodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ceftriaxone_bisodico_3_5_h20","entity_type":"active","canonical_it":"ceftriaxone bisodico 3,5 h20","canonical_en":"ceftriaxone disodium 3.5 h20","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ceftriaxone_bisodico_3_5_h2o","entity_type":"active","canonical_it":"ceftriaxone bisodico 3,5 h2o","canonical_en":"ceftriaxone disodium 3.5 h2o","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefuroxima","entity_type":"active","canonical_it":"cefuroxima","canonical_en":"Cefuroxime","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefuroxima_axetil","entity_type":"active","canonical_it":"cefuroxima axetil","canonical_en":"cefuroxime axetil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefuroxima_come_acetossietilcefuroxima","entity_type":"active","canonical_it":"cefuroxima (come acetossietilcefuroxima)","canonical_en":"cefuroxime (as cefuroxime axetil)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cefuroxima_sodica","entity_type":"active","canonical_it":"cefuroxima sodica","canonical_en":"Cefuroxime sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:celecoxib","entity_type":"active","canonical_it":"celecoxib","canonical_en":"celecoxib","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cetilpiridinio_cloruro","entity_type":"active","canonical_it":"cetilpiridinio cloruro","canonical_en":"Cetylpyridinium chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:chinidina_base","entity_type":"active","canonical_it":"chinidina base","canonical_en":"quinidine base","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:chinidina_poligalatturonato","entity_type":"active","canonical_it":"chinidina poligalatturonato","canonical_en":"chinidina poligalatturonato","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:chinidina_solfato","entity_type":"active","canonical_it":"chinidina solfato","canonical_en":"Quinidine sulfate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ciclopiroxolamina","entity_type":"active","canonical_it":"ciclopiroxolamina","canonical_en":"Ciclopirox olamine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cilastatina","entity_type":"active","canonical_it":"cilastatina","canonical_en":"cilastatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cilastatina_acido_libero","entity_type":"active","canonical_it":"cilastatina acido libero","canonical_en":"cilastatin free acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cisplatino","entity_type":"active","canonical_it":"cisplatino","canonical_en":"Cisplatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:clobetasolo_propionato","entity_type":"active","canonical_it":"clobetasolo propionato","canonical_en":"Clobetasol propionate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:clopidogrel","entity_type":"active","canonical_it":"clopidogrel","canonical_en":"clopidogrel","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:clorazepato_dipotassico","entity_type":"active","canonical_it":"clorazepato dipotassico","canonical_en":"Clorazepate dipotassium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:clorexidina_dicloridrato","entity_type":"active","canonical_it":"clorexidina dicloridrato","canonical_en":"Chlorhexidine dihydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cloruro_di_calcio_diidrato","entity_type":"active","canonical_it":"cloruro di calcio diidrato","canonical_en":"Calcium chloride dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cloruro_di_calcio_diidrato_0_37_g","entity_type":"active","canonical_it":"cloruro di calcio diidrato 0,37 g","canonical_en":"Calcium chloride dihydrate 0.37 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cloruro_di_potassio_0_30_g","entity_type":"active","canonical_it":"cloruro di potassio 0,30 g","canonical_en":"potassium chloride 0.30 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:cloruro_di_sodio_6_25_g","entity_type":"active","canonical_it":"cloruro di sodio 6,25 g","canonical_en":"sodium chloride 6.25 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:codeina_fosfato","entity_type":"active","canonical_it":"codeina fosfato","canonical_en":"Codeine phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:codeina_fosfato_30_mg","entity_type":"active","canonical_it":"codeina fosfato 30 mg","canonical_en":"Codeine phosphate 30 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:codeina_fosfato_emidrato","entity_type":"active","canonical_it":"codeina fosfato emidrato","canonical_en":"Codeine phosphate hemihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:dexketoprofene","entity_type":"active","canonical_it":"dexketoprofene","canonical_en":"dexketoprofen","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:dexketoprofene_trometamolo","entity_type":"active","canonical_it":"dexketoprofene trometamolo","canonical_en":"Dexketoprofen trometamol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:diclofenac_idrossietilpirrolidina","entity_type":"active","canonical_it":"diclofenac idrossietilpirrolidina","canonical_en":"diclofenac hydroxyethylpyrrolidine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:diclofenac_sodico","entity_type":"active","canonical_it":"diclofenac sodico","canonical_en":"Diclofenac sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:docetaxel","entity_type":"active","canonical_it":"docetaxel","canonical_en":"Docetaxel","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:doxiciclina_come_monoidrato","entity_type":"active","canonical_it":"doxiciclina (come monoidrato)","canonical_en":"Doxycycline (as monohydrate)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:econazolo_nitrato","entity_type":"active","canonical_it":"econazolo nitrato","canonical_en":"econazolo nitrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:enalapril_maleato","entity_type":"active","canonical_it":"enalapril maleato","canonical_en":"Enalapril maleate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:esomeprazolo_come_magnesio_diidrato","entity_type":"active","canonical_it":"esomeprazolo (come magnesio diidrato)","canonical_en":"esomeprazole (as magnesium dihydrate)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:etoricoxib","entity_type":"active","canonical_it":"etoricoxib","canonical_en":"etoricoxib","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fenilalanina","entity_type":"active","canonical_it":"fenilalanina","canonical_en":"Phenylalanine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fenitoina_sodica","entity_type":"active","canonical_it":"fenitoina sodica","canonical_en":"Phenytoin sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fentanil","entity_type":"active","canonical_it":"fentanil","canonical_en":"Fentanyl","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fentanil_citrato","entity_type":"active","canonical_it":"fentanil citrato","canonical_en":"fentanyl citrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fluticasone_propionato","entity_type":"active","canonical_it":"fluticasone propionato","canonical_en":"Fluticasone propionate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:fulvestrant","entity_type":"active","canonical_it":"fulvestrant","canonical_en":"Fulvestrant","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:furosemide","entity_type":"active","canonical_it":"furosemide","canonical_en":"furosemide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:gadobutrolo","entity_type":"active","canonical_it":"gadobutrolo","canonical_en":"gadobutrolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:gadoxetato_disodico","entity_type":"active","canonical_it":"gadoxetato disodico","canonical_en":"Gadoxetate disodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:glibenclamide","entity_type":"active","canonical_it":"glibenclamide","canonical_en":"Glibenclamide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:glibenclamide_5_mg","entity_type":"active","canonical_it":"glibenclamide 5 mg","canonical_en":"glibenclamide 5 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:glicina","entity_type":"active","canonical_it":"glicina","canonical_en":"Wisteria","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:glicosaminoglicanopolisolfato","entity_type":"active","canonical_it":"glicosaminoglicanopolisolfato","canonical_en":"glicosaminoglicanopolisolfato","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:glucosiomonoidrato","entity_type":"active","canonical_it":"glucosio-monoidrato","canonical_en":"Glucose monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ibuprofene","entity_type":"active","canonical_it":"ibuprofene","canonical_en":"Ibuprofen","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:idroclorotiazide","entity_type":"active","canonical_it":"idroclorotiazide","canonical_en":"hydrochlorothiazide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:idrocortisone","entity_type":"active","canonical_it":"idrocortisone","canonical_en":"Hydrocortisone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:idromorfone","entity_type":"active","canonical_it":"idromorfone","canonical_en":"Hydromorphone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:idromorfone_cloridrato","entity_type":"active","canonical_it":"idromorfone cloridrato","canonical_en":"Hydromorphone hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:idrossocobalamina","entity_type":"active","canonical_it":"idrossocobalamina","canonical_en":"Hydroxocobalamin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:imipenem_anidro","entity_type":"active","canonical_it":"imipenem anidro","canonical_en":"imipenem anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:indometacina","entity_type":"active","canonical_it":"indometacina","canonical_en":"Indomethacin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:indometacina_meglumina","entity_type":"active","canonical_it":"indometacina meglumina","canonical_en":"indomethacin meglumine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:infliximab","entity_type":"active","canonical_it":"infliximab","canonical_en":"infliximab","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:iodio","entity_type":"active","canonical_it":"iodio","canonical_en":"Iodine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:iodoformio","entity_type":"active","canonical_it":"iodoformio","canonical_en":"Iodoform","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ioexolo","entity_type":"active","canonical_it":"ioexolo","canonical_en":"ioexolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:iomeprolo","entity_type":"active","canonical_it":"iomeprolo","canonical_en":"iomeprolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:iopamidolo","entity_type":"active","canonical_it":"iopamidolo","canonical_en":"iopamidolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:iopromide","entity_type":"active","canonical_it":"iopromide","canonical_en":"iopromide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:irbesartan","entity_type":"active","canonical_it":"irbesartan","canonical_en":"irbesartan","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:isoleucina","entity_type":"active","canonical_it":"isoleucina","canonical_en":"Isoleucine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:istidina_cloridrato_monoidrato","entity_type":"active","canonical_it":"istidina cloridrato monoidrato","canonical_en":"histidine hydrochloride monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ketoprofene_sale_di_lisina","entity_type":"active","canonical_it":"ketoprofene sale di lisina","canonical_en":"Ketoprofen lysine salt","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lacosamide","entity_type":"active","canonical_it":"lacosamide","canonical_en":"lacosamide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:larginina_cloridrato","entity_type":"active","canonical_it":"l-arginina cloridrato","canonical_en":"L-arginine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:latanoprost","entity_type":"active","canonical_it":"latanoprost","canonical_en":"latanoprost","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lcarnitina_sale_interno","entity_type":"active","canonical_it":"l-carnitina sale interno","canonical_en":"l-carnitine internal salt","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:levetiracetam","entity_type":"active","canonical_it":"levetiracetam","canonical_en":"levetiracetam","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lfosfoserina","entity_type":"active","canonical_it":"l-fosfoserina","canonical_en":"l-phosphoserine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lfosfotreonina","entity_type":"active","canonical_it":"l-fosfotreonina","canonical_en":"l-fosfothreonine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lglutammina","entity_type":"active","canonical_it":"l-glutammina","canonical_en":"L-glutamine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lisina_cloridrato","entity_type":"active","canonical_it":"lisina cloridrato","canonical_en":"Lysine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lisinopril_anidro","entity_type":"active","canonical_it":"lisinopril anidro","canonical_en":"lisinopril anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:lisinopril_diidrato","entity_type":"active","canonical_it":"lisinopril diidrato","canonical_en":"lisinopril dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:magnesio_cloruro_esaidrato_0_20_g","entity_type":"active","canonical_it":"magnesio cloruro esaidrato 0,20 g","canonical_en":"magnesium chloride hexahydrate 0.20 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:magnesio_idrossido","entity_type":"active","canonical_it":"magnesio idrossido","canonical_en":"Magnesium hydroxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:mentolo_naturale","entity_type":"active","canonical_it":"mentolo naturale","canonical_en":"Natural menthol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:meropenem_anidro","entity_type":"active","canonical_it":"meropenem anidro","canonical_en":"meropenem anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:meropenem_anidro_come_meropenem_triidrato","entity_type":"active","canonical_it":"meropenem anidro (come meropenem triidrato)","canonical_en":"meropenem anhydrous (as meropenem trihydrate)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:meropenem_triidrato","entity_type":"active","canonical_it":"meropenem triidrato","canonical_en":"meropenem trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:metile_salicilato","entity_type":"active","canonical_it":"metile salicilato","canonical_en":"Methyl salicylate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:metoclopramide_monocloridrato_monoidrato","entity_type":"active","canonical_it":"metoclopramide monocloridrato monoidrato","canonical_en":"Metoclopramide monohydrochloride monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:metossipolietilenglicoleepoetina_beta","entity_type":"active","canonical_it":"metossipolietilenglicole-epoetina beta","canonical_en":"metossipolietilenglicole-epoetina beta","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:molibdeno_cloruro","entity_type":"active","canonical_it":"molibdeno cloruro","canonical_en":"molybdenum chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:morfina","entity_type":"active","canonical_it":"morfina","canonical_en":"Morphine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:morfina_cloridrato","entity_type":"active","canonical_it":"morfina cloridrato","canonical_en":"Morphine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:morfina_cloridrato_triidrato","entity_type":"active","canonical_it":"morfina cloridrato triidrato","canonical_en":"morphine hydrochloride trihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:morfina_solfato","entity_type":"active","canonical_it":"morfina solfato","canonical_en":"morphine sulfate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:morfina_solfato_sun","entity_type":"active","canonical_it":"morfina solfato sun","canonical_en":"morphine sulfate sun","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:naloxone","entity_type":"active","canonical_it":"naloxone","canonical_en":"Naloxone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:naproxene","entity_type":"active","canonical_it":"naproxene","canonical_en":"Naproxen","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:naproxene_sodico","entity_type":"active","canonical_it":"naproxene sodico","canonical_en":"sodium naproxen","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:nicergolina","entity_type":"active","canonical_it":"nicergolina","canonical_en":"nicergolina","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:nitisinone","entity_type":"active","canonical_it":"nitisinone","canonical_en":"nitisinone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:olanzapina","entity_type":"active","canonical_it":"olanzapina","canonical_en":"Olanzapine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:olio_di_soia","entity_type":"active","canonical_it":"olio di soia","canonical_en":"Soybean oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:olmesartan_medoxomil","entity_type":"active","canonical_it":"olmesartan medoxomil","canonical_en":"olmesartan medoxomil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:orlistat","entity_type":"active","canonical_it":"orlistat","canonical_en":"orlistat","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ossido_di_gadolinio","entity_type":"active","canonical_it":"ossido di gadolinio","canonical_en":"Gadolinium oxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:oxicodone","entity_type":"active","canonical_it":"oxicodone","canonical_en":"Oxycodone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:oxicodone_cloridrato","entity_type":"active","canonical_it":"oxicodone cloridrato","canonical_en":"oxycodone hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:paclitaxel","entity_type":"active","canonical_it":"paclitaxel","canonical_en":"Paclitaxel","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:paracetamolo","entity_type":"active","canonical_it":"paracetamolo","canonical_en":"Paracetamol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:paracetamolo_500_mg","entity_type":"active","canonical_it":"paracetamolo 500 mg","canonical_en":"Paracetamol 500 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:paraclorofenolo","entity_type":"active","canonical_it":"para-clorofenolo","canonical_en":"para-chlorophenol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:perindopril_tertbutilamina","entity_type":"active","canonical_it":"perindopril tert-butilamina","canonical_en":"perindopril tert-butylamine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:petidina_cloridrato","entity_type":"active","canonical_it":"petidina cloridrato","canonical_en":"Pethidine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:pioglitazone","entity_type":"active","canonical_it":"pioglitazone","canonical_en":"pioglitazone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:piperacillina","entity_type":"active","canonical_it":"piperacillina","canonical_en":"Piperacillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:piperacillina_sodica","entity_type":"active","canonical_it":"piperacillina sodica","canonical_en":"sodium piperacillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:pipetanato_etobromuro","entity_type":"active","canonical_it":"pipetanato etobromuro","canonical_en":"pipetanato etobromuro","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:potassio_ioduro","entity_type":"active","canonical_it":"potassio ioduro","canonical_en":"Potassium iodide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:prasugrel","entity_type":"active","canonical_it":"prasugrel","canonical_en":"prasugrel","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:prasugrel_bromidrato","entity_type":"active","canonical_it":"prasugrel bromidrato","canonical_en":"prasugrel bromidrato","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:procaina_cloridrato","entity_type":"active","canonical_it":"procaina cloridrato","canonical_en":"Procaine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:procainamide_cloridrato","entity_type":"active","canonical_it":"procainamide cloridrato","canonical_en":"Procainamide hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:prolina","entity_type":"active","canonical_it":"prolina","canonical_en":"Proline","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:pseudoefedrina_cloridrato","entity_type":"active","canonical_it":"pseudoefedrina cloridrato","canonical_en":"Pseudoephedrine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ramipril","entity_type":"active","canonical_it":"ramipril","canonical_en":"ramipril","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:rocuronio_bromuro","entity_type":"active","canonical_it":"rocuronio bromuro","canonical_en":"Rocuronium bromide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ropivacaina_cloridrato","entity_type":"active","canonical_it":"ropivacaina cloridrato","canonical_en":"ropivacaine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ropivacaina_cloridrato_monoidrato","entity_type":"active","canonical_it":"ropivacaina cloridrato monoidrato","canonical_en":"ropivacaine hydrochloride monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:rubidio_ioduro","entity_type":"active","canonical_it":"rubidio ioduro","canonical_en":"Rubidium iodide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:sale_di_meglumina","entity_type":"active","canonical_it":"sale di meglumina","canonical_en":"Meglumine salts","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:serina","entity_type":"active","canonical_it":"serina","canonical_en":"Serina","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:simvastatina","entity_type":"active","canonical_it":"simvastatina","canonical_en":"Simvastatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:sodio","entity_type":"active","canonical_it":"sodio","canonical_en":"Sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:sodio_acetato_triidrato_3_27_g","entity_type":"active","canonical_it":"sodio acetato triidrato 3,27 g","canonical_en":"Sodium acetate trihydrate 3.27 g","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:sodio_ioduro","entity_type":"active","canonical_it":"sodio ioduro","canonical_en":"Sodium iodide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:solifenacina_succinato","entity_type":"active","canonical_it":"solifenacina succinato","canonical_en":"solifenacin succinate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tadalafil","entity_type":"active","canonical_it":"tadalafil","canonical_en":"Tadalafil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tapentadolo","entity_type":"active","canonical_it":"tapentadolo","canonical_en":"Tapentadol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tapentadolo_cloridrato","entity_type":"active","canonical_it":"tapentadolo cloridrato","canonical_en":"Tapentadol hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tapentadolo_fosfato","entity_type":"active","canonical_it":"tapentadolo fosfato","canonical_en":"Tapentadol phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tapentadolo_tartrato","entity_type":"active","canonical_it":"tapentadolo tartrato","canonical_en":"Tapentadol tartrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tenofovir_disoproxil_fosfato","entity_type":"active","canonical_it":"tenofovir disoproxil fosfato","canonical_en":"tenofovir disoproxil phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tetraxetano_dota","entity_type":"active","canonical_it":"tetraxetano (dota)","canonical_en":"tetraxetan (dota)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:ticagrelor","entity_type":"active","canonical_it":"ticagrelor","canonical_en":"ticagrelor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:timololo_maleato","entity_type":"active","canonical_it":"timololo maleato","canonical_en":"Timolol maleate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tofacitinib","entity_type":"active","canonical_it":"tofacitinib","canonical_en":"Tofacitinib","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:torasemide","entity_type":"active","canonical_it":"torasemide","canonical_en":"torasemide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tozinameran","entity_type":"active","canonical_it":"tozinameran","canonical_en":"tozinameran","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:tramadolo_cloridrato","entity_type":"active","canonical_it":"tramadolo cloridrato","canonical_en":"tramadol hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:treonina","entity_type":"active","canonical_it":"treonina","canonical_en":"threonine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:triptofano","entity_type":"active","canonical_it":"triptofano","canonical_en":"Tryptophan","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:valina","entity_type":"active","canonical_it":"valina","canonical_en":"Valine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active:venlafaxina_cloridrato","entity_type":"active","canonical_it":"venlafaxina cloridrato","canonical_en":"Venlafaxine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:alcool_etilico","entity_type":"active/inactive","canonical_it":"alcool etilico","canonical_en":"Ethyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:arginina","entity_type":"active/inactive","canonical_it":"arginina","canonical_en":"Arginine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:calcio_cloruro","entity_type":"active/inactive","canonical_it":"calcio cloruro","canonical_en":"Calcium chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:canfora","entity_type":"active/inactive","canonical_it":"canfora","canonical_en":"Camphor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:leucina","entity_type":"active/inactive","canonical_it":"leucina","canonical_en":"Leucine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:olio_di_soia_raffinato","entity_type":"active/inactive","canonical_it":"olio di soia raffinato","canonical_en":"Refined soybean oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:ossido_di_alluminio_idrato","entity_type":"active/inactive","canonical_it":"ossido di alluminio idrato","canonical_en":"Hydrated aluminum oxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:sodio_citrato","entity_type":"active/inactive","canonical_it":"sodio citrato","canonical_en":"Sodium citrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:sodio_cloruro","entity_type":"active/inactive","canonical_it":"sodio cloruro","canonical_en":"Sodium chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"active_inactive:sodio_diidrogeno_fosfato_diidrato","entity_type":"active/inactive","canonical_it":"sodio diidrogeno fosfato diidrato","canonical_en":"Sodium dihydrogen phosphate dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:1_2distearoilsnglicero3fosfocolina_dspc","entity_type":"inactive","canonical_it":"1,2-distearoil-sn-glicero-3-fosfocolina (dspc)","canonical_en":"1,2-distearoyl-sn-glycero-3-phosphocholine (dspc)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:2_octildodecanolo","entity_type":"inactive","canonical_it":"2 octildodecanolo","canonical_en":"2-octyldodecanol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:2_polietilenglicole_2000_n_nditetradecilacetammide_alc0159","entity_type":"inactive","canonical_it":"2-[(polietilenglicole)-2000]-n,n-ditetradecilacetammide (alc-0159)","canonical_en":"2-[(polyethylene glycol)-2000]-n,n-ditetradecylacetamide (alc-0159)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:35_mg_in_3_5_ml","entity_type":"inactive","canonical_it":"35 mg in 3,5 ml","canonical_en":"35 mg in 3.5 ml","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:4idrossibutil_azanediil_bis_esano6_1diil_bis_2esildecanoato_alc0315","entity_type":"inactive","canonical_it":"((4-idrossibutil)azanediil)bis(esano-6,1-diil)bis(2-esildecanoato) (alc-0315)","canonical_en":"((4-hydroxybutyl)azanediyl)bis(hexane-6,1-diyl)bis(2-hexyldecanoate) (alc-0315)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acesulfame_potassio_e950","entity_type":"inactive","canonical_it":"acesulfame potassio (e-950)","canonical_en":"acesulfame potassium (e-950)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acetoftalato_di_cellulosa","entity_type":"inactive","canonical_it":"acetoftalato di cellulosa","canonical_en":"Cellulose acetate phthalate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_1_4_7_10tetraazaciclododecano1_4_7_10tetraacetico_dota","entity_type":"inactive","canonical_it":"acido 1,4,7,10-tetra-azaciclododecano-1,4,7,10-tetra-acetico (dota)","canonical_en":"1,4,7,10-tetra-azacyclododecane-1,4,7,10-tetra-acetic acid (DOTA)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_acetico_30_per_la_regolazione_del_ph","entity_type":"inactive","canonical_it":"acido acetico 30% (per la regolazione del ph)","canonical_en":"Acetic acid 30% (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_acetico_99_per_la_regolazione_del_ph","entity_type":"inactive","canonical_it":"acido acetico 99% (per la regolazione del ph)","canonical_en":"Acetic acid 99% (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_benzoico_e210","entity_type":"inactive","canonical_it":"acido benzoico (e 210)","canonical_en":"Benzoic acid (E 210)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_borico","entity_type":"inactive","canonical_it":"acido borico","canonical_en":"Boric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_carminico_e120","entity_type":"inactive","canonical_it":"acido carminico (e120)","canonical_en":"Carmine acid (E120)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_citrico_anidro","entity_type":"inactive","canonical_it":"acido citrico anidro","canonical_en":"Citric acid anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_citrico_e330","entity_type":"inactive","canonical_it":"acido citrico (e330)","canonical_en":"citric acid (e330)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_citrico_monoidrato","entity_type":"inactive","canonical_it":"acido citrico monoidrato","canonical_en":"Citric acid monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico","entity_type":"inactive","canonical_it":"acido cloridrico","canonical_en":"Hydrochloric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_0_1_per_aggiustare_il_ph","entity_type":"inactive","canonical_it":"acido cloridrico 0,1% (per aggiustare il ph)","canonical_en":"Hydrochloric acid 0.1% (to adjust the pH)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_0_36_o_sodio_idrossido_per_la_correzione_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico (0,36%) o sodio idrossido (per la correzione del ph)","canonical_en":"Hydrochloric acid (0.36%) or sodium hydroxide (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_1_n","entity_type":"inactive","canonical_it":"acido cloridrico 1 n","canonical_en":"Hydrochloric acid 1 n","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_1_n_aggiustamento_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico 1 n (aggiustamento del ph)","canonical_en":"Hydrochloric acid 1 N (pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_aggiustamento_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico (aggiustamento del ph)","canonical_en":"Hydrochloric acid (pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_d_1_18","entity_type":"inactive","canonical_it":"acido cloridrico (d=1,18)","canonical_en":"Hydrochloric acid (d=1.18)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_diluito_per_correggere_il_ph","entity_type":"inactive","canonical_it":"acido cloridrico diluito (per correggere il ph)","canonical_en":"Diluted hydrochloric acid (to adjust the pH)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_per_aggiustamento_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico (per aggiustamento del ph)","canonical_en":"Hydrochloric acid (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_per_la_correzione_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico (per la correzione del ph)","canonical_en":"Hydrochloric acid (for pH correction)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_cloridrico_per_la_regolazione_del_ph","entity_type":"inactive","canonical_it":"acido cloridrico (per la regolazione del ph)","canonical_en":"Hydrochloric acid (for pH regulation)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_edetico","entity_type":"inactive","canonical_it":"acido edetico","canonical_en":"Edetic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_fosforico_per_correggere_il_ph","entity_type":"inactive","canonical_it":"acido fosforico (per correggere il ph)","canonical_en":"Phosphoric acid (to correct the pH)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_lattico","entity_type":"inactive","canonical_it":"acido lattico","canonical_en":"Lactic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_levulinico","entity_type":"inactive","canonical_it":"acido levulinico","canonical_en":"Levulinic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_maleico","entity_type":"inactive","canonical_it":"acido maleico","canonical_en":"Maleic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_metacrilico_copolimero_etilacrilato_1_1","entity_type":"inactive","canonical_it":"acido metacrilico - copolimero etilacrilato (1:1)","canonical_en":"Methacrylic acid - ethyl acrylate copolymer (1:1)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_metacrilicoetilacrilato_copolimero_1_1_dispersione_30","entity_type":"inactive","canonical_it":"acido metacrilico-etilacrilato copolimero (1: 1) dispersione 30%","canonical_en":"Methacrylic acid-ethyl acrylate copolymer (1:1) dispersion 30%","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_oleico","entity_type":"inactive","canonical_it":"acido oleico","canonical_en":"Oleic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_poliacrilico_sale_di_sodio","entity_type":"inactive","canonical_it":"acido poliacrilico sale di sodio","canonical_en":"Sodium polyacrylate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_solforico","entity_type":"inactive","canonical_it":"acido solforico","canonical_en":"Sulfuric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_solforico_per_la_correzione_del_ph","entity_type":"inactive","canonical_it":"acido solforico (per la correzione del ph)","canonical_en":"Sulfuric acid (for pH correction)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_sorbico","entity_type":"inactive","canonical_it":"acido sorbico","canonical_en":"Sorbic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_stearico","entity_type":"inactive","canonical_it":"acido stearico","canonical_en":"Stearic acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_stearico_tipo_50","entity_type":"inactive","canonical_it":"acido stearico (tipo 50)","canonical_en":"stearic acid (type 50)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acido_tartarico","entity_type":"inactive","canonical_it":"acido tartarico","canonical_en":"Tartaric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua","entity_type":"inactive","canonical_it":"acqua","canonical_en":"Water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_apirogena_per_preparazioni_iniettabili","entity_type":"inactive","canonical_it":"acqua apirogena per preparazioni iniettabili","canonical_en":"Pyrogen-free water for injectable preparations","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_bidistillata_sterile","entity_type":"inactive","canonical_it":"acqua bidistillata sterile","canonical_en":"Sterile bidistilled water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_bidistillata_sterile_qb_ml_4_00","entity_type":"inactive","canonical_it":"acqua bidistillata sterile q.b. ml 4,00","canonical_en":"Sterile double-distilled water q.s. ml 4.00","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_deionizzata","entity_type":"inactive","canonical_it":"acqua deionizzata","canonical_en":"Deionized water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_depurata","entity_type":"inactive","canonical_it":"acqua depurata","canonical_en":"Purified water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_distillata_ppi","entity_type":"inactive","canonical_it":"acqua distillata p.p.i.","canonical_en":"Distilled water p.p.i.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_per_iniezioni","entity_type":"inactive","canonical_it":"acqua per iniezioni","canonical_en":"Water for injections","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_per_preparazioni_iniettabili","entity_type":"inactive","canonical_it":"acqua per preparazioni iniettabili","canonical_en":"Water for injectable preparations","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_per_preparazioni_iniettabili_qb_a_5_ml","entity_type":"inactive","canonical_it":"acqua per preparazioni iniettabili q.b. a 5 ml","canonical_en":"Water for injectable preparations up to 5 ml","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_per_soluzioni_iniettabili","entity_type":"inactive","canonical_it":"acqua per soluzioni iniettabili","canonical_en":"Water for injectable solutions","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_potabile","entity_type":"inactive","canonical_it":"acqua potabile","canonical_en":"Drinking water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_ppi","entity_type":"inactive","canonical_it":"acqua p.p.i.","canonical_en":"water p.p.i.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:acqua_ppi_fu","entity_type":"inactive","canonical_it":"acqua p.p.i. f.u.","canonical_en":"water p.p.i. f.u.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:adesivo_acrilico","entity_type":"inactive","canonical_it":"adesivo acrilico","canonical_en":"Acrylic adhesive","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:adesivo_medico_in_silicone","entity_type":"inactive","canonical_it":"adesivo medico in silicone","canonical_en":"Silicone medical adhesive","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:adesivo_poliacrilato","entity_type":"inactive","canonical_it":"adesivo poliacrilato","canonical_en":"Polyacrylate adhesive","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_antischiuma_siliconante_se2_mc","entity_type":"inactive","canonical_it":"agente antischiuma siliconante se2 mc","canonical_en":"Silicon-based antifoaming agent se2 mc","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_colorante_gelbgrunfarblack_e104_132","entity_type":"inactive","canonical_it":"agente colorante “gelbgrun–farblack” e 104/132","canonical_en":"Coloring agent \"gelbgrun–farblack\" e 104/132","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_colorante_gelborangelack_e110","entity_type":"inactive","canonical_it":"agente colorante “gelborangelack” e 110","canonical_en":"Coloring agent \"gelborangelack\" E 110","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_colorante_indigotinlack_e132","entity_type":"inactive","canonical_it":"agente colorante “indigotinlack” e 132","canonical_en":"Coloring agent \"indigotinlack\" E 132","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_colorante_lackgelb_tf_e104_110","entity_type":"inactive","canonical_it":"agente colorante “lackgelb tf” e 104/110","canonical_en":"Coloring agent \"lackgelb tf\" and 104/110","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:agente_colorante_ponceau_4r_lack_e124","entity_type":"inactive","canonical_it":"agente colorante “ponceau 4r – lack” e 124","canonical_en":"Coloring agent \"ponceau 4r – lack\" e 124","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alchilamidobetaina","entity_type":"inactive","canonical_it":"alchilamidobetaina","canonical_en":"Alkylamidobetaine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcol_benzilico_e1519","entity_type":"inactive","canonical_it":"alcol benzilico (e1519)","canonical_en":"Benzyl alcohol (E1519)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcol_feniletilico","entity_type":"inactive","canonical_it":"alcol feniletilico","canonical_en":"Phenethyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcol_stearilico","entity_type":"inactive","canonical_it":"alcol stearilico","canonical_en":"Stearyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcoli_della_lanolina","entity_type":"inactive","canonical_it":"alcoli della lanolina","canonical_en":"Lanolin alcohols","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_2feniletilico","entity_type":"inactive","canonical_it":"alcool 2–feniletilico","canonical_en":"2-phenylethyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_cetilico","entity_type":"inactive","canonical_it":"alcool cetilico","canonical_en":"cetyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_cetostearilico","entity_type":"inactive","canonical_it":"alcool cetostearilico","canonical_en":"Cetearyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_etilico_96deg","entity_type":"inactive","canonical_it":"alcool etilico 96°","canonical_en":"Ethyl alcohol 96°","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_isopropilico","entity_type":"inactive","canonical_it":"alcool isopropilico","canonical_en":"Isopropyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_miristico","entity_type":"inactive","canonical_it":"alcool miristico","canonical_en":"Myristic alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alcool_miristilico","entity_type":"inactive","canonical_it":"alcool miristilico","canonical_en":"Myristyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aldeide_cinnamica","entity_type":"inactive","canonical_it":"aldeide cinnamica","canonical_en":"Cinnamic aldehyde","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:allracatocoferolo","entity_type":"inactive","canonical_it":"all-rac-α-tocoferolo","canonical_en":"all-rac-α-tocopherol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alluminio_idrossido_gel_secco","entity_type":"inactive","canonical_it":"alluminio idrossido gel secco","canonical_en":"Aluminum hydroxide dry gel","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:alluminiopotassio_bis_solfato","entity_type":"inactive","canonical_it":"alluminio-potassio bis(solfato)","canonical_en":"Aluminium-potassium bis(sulfate)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido","entity_type":"inactive","canonical_it":"amido","canonical_en":"Starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_acrilato_1000","entity_type":"inactive","canonical_it":"amido acrilato 1000","canonical_en":"Acrylate starch 1000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_di_mais","entity_type":"inactive","canonical_it":"amido di mais","canonical_en":"Cornstarch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_di_patate","entity_type":"inactive","canonical_it":"amido di patate","canonical_en":"Potato starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_parzialmente_pregelatinizzato_1500_dallamido_di_mais","entity_type":"inactive","canonical_it":"amido, parzialmente pregelatinizzato 1500 (dall’amido di mais)","canonical_en":"Starch, partially pregelatinized 1500 (from corn starch)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_pregelatinizzato","entity_type":"inactive","canonical_it":"amido pregelatinizzato","canonical_en":"Pregelatinized starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:amido_solubile_patata","entity_type":"inactive","canonical_it":"amido solubile (patata)","canonical_en":"Soluble starch (potato)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ammonio_glicirizzinato","entity_type":"inactive","canonical_it":"ammonio glicirizzinato","canonical_en":"Ammonium glycyrrhizinate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ammonio_idrossido_e527","entity_type":"inactive","canonical_it":"ammonio idrossido (e527)","canonical_en":"Ammonium hydroxide (E527)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ammoniometacrilato_copolimero_in_dispersione","entity_type":"inactive","canonical_it":"ammoniometacrilato copolimero in dispersione","canonical_en":"Ammoniomethacrylate copolymer in dispersion","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ananas_liofilizzato","entity_type":"inactive","canonical_it":"ananas liofilizzato","canonical_en":"Freeze-dried pineapple","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aquacoat_ecd_30","entity_type":"inactive","canonical_it":"aquacoat ecd 30","canonical_en":"aquacoat ecd 30","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_albicocca","entity_type":"inactive","canonical_it":"aroma albicocca","canonical_en":"apricot aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_anice_menta","entity_type":"inactive","canonical_it":"aroma anice menta","canonical_en":"Anise mint aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_arancia","entity_type":"inactive","canonical_it":"aroma arancia","canonical_en":"Orange aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_arancio_contenente_essenza_darancia_olio_essenziale_darancia_privo_di_terpeni_acido_citrico_monoidrato_butilidrossianisolo_destrina_acacia","entity_type":"inactive","canonical_it":"aroma arancio (contenente essenza d’arancia, olio essenziale d’arancia privo di terpeni, acido citrico monoidrato, butilidrossianisolo, destrina, acacia)","canonical_en":"Orange aroma (containing orange essence, orange essential oil free of terpenes, monohydrate citric acid, butylated hydroxyanisole, dextrin, acacia)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_artificiale_ai_frutti_di_bosco_componenti_principali_amido_di_tapioca_gomma_arabica_e414_e_triacetina","entity_type":"inactive","canonical_it":"aroma artificiale ai frutti di bosco (componenti principali amido di tapioca, gomma arabica (e 414) e triacetina)","canonical_en":"Artificial wild berry flavor (main components tapioca starch, gum arabic (e 414), and triacetin)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_artificiale_ai_frutti_di_bosco_maltodestrina_contenente_glucosio_glicole_propilenico_aromi_artificiali_e_trietilcitrato","entity_type":"inactive","canonical_it":"aroma artificiale ai frutti di bosco (maltodestrina (contenente glucosio), glicole propilenico, aromi artificiali e trietilcitrato)","canonical_en":"Artificial wild berry flavor (maltodextrin (containing glucose), propylene glycol, artificial flavors, and triethyl citrate)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_caramel_mou","entity_type":"inactive","canonical_it":"aroma caramel mou","canonical_en":"caramel mou aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_caramello","entity_type":"inactive","canonical_it":"aroma caramello","canonical_en":"Caramel aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_citronjus","entity_type":"inactive","canonical_it":"aroma citronjus","canonical_en":"citronjus aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_crem_caramel","entity_type":"inactive","canonical_it":"aroma crem caramel","canonical_en":"crem caramel aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_agrumi","entity_type":"inactive","canonical_it":"aroma di agrumi","canonical_en":"Citrus aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_fiori_di_sambuco","entity_type":"inactive","canonical_it":"aroma di fiori di sambuco","canonical_en":"Elderflower aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_fragola_artificiale","entity_type":"inactive","canonical_it":"aroma di fragola (artificiale)","canonical_en":"Artificial strawberry flavor.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_fragola_maltodestrina_trietil_citrato_e1505_i_componenti_aromatizzanti_glicole_propilenico_e_alcool_benzilico","entity_type":"inactive","canonical_it":"aroma di fragola (maltodestrina, trietil citrato (e1505), i componenti aromatizzanti, glicole propilenico e alcool benzílico)","canonical_en":"Strawberry flavor (maltodextrin, triethyl citrate (e1505), flavoring components, propylene glycol, and benzyl alcohol)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_limone_contenente_idrossianisolo_butilato_e320","entity_type":"inactive","canonical_it":"aroma di limone (contenente idrossianisolo butilato (e320))","canonical_en":"Lemon flavor (containing butylated hydroxyanisole (e320))","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_di_pesca","entity_type":"inactive","canonical_it":"aroma di pesca","canonical_en":"Peach aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_fragola","entity_type":"inactive","canonical_it":"aroma fragola","canonical_en":"strawberry flavor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_fragola_mandarino","entity_type":"inactive","canonical_it":"aroma fragola/mandarino","canonical_en":"Strawberry/mandarin flavor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_frescofort","entity_type":"inactive","canonical_it":"aroma frescofort","canonical_en":"frescofort aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_lampone","entity_type":"inactive","canonical_it":"aroma lampone","canonical_en":"raspberry aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_lime","entity_type":"inactive","canonical_it":"aroma lime","canonical_en":"lime aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_limone","entity_type":"inactive","canonical_it":"aroma (limone)","canonical_en":"aroma (lemon)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_menta","entity_type":"inactive","canonical_it":"aroma menta","canonical_en":"mint aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_naturale_pompelmo","entity_type":"inactive","canonical_it":"aroma naturale pompelmo","canonical_en":"natural grapefruit flavor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_olandese_lattosio_est_naturali_bacche_cacao_vaniglia_vanillina_ess_cannella_ceylon_e_mandorle_amare_cumarilone_di_acetile","entity_type":"inactive","canonical_it":"aroma olandese (lattosio,est. naturali: bacche cacao, vaniglia, vanillina ess.: cannella ceylon e mandorle amare, cumarilone, di acetile)","canonical_en":"Dutch aroma (lactose, natural extracts: cocoa beans, vanilla, vanillin essence: Ceylon cinnamon and bitter almonds, coumarin, diacetyl)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_panna","entity_type":"inactive","canonical_it":"aroma panna","canonical_en":"Cream flavor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_pompelmo","entity_type":"inactive","canonical_it":"aroma pompelmo","canonical_en":"Grapefruit aroma","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aroma_tuttifrutti","entity_type":"inactive","canonical_it":"aroma tuttifrutti","canonical_en":"tutti-frutti flavor","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:aspartame","entity_type":"inactive","canonical_it":"aspartame","canonical_en":"Aspartame","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:atocoferolo","entity_type":"inactive","canonical_it":"a-tocoferolo","canonical_en":"a-tocopherol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:atocoferolo_acetato","entity_type":"inactive","canonical_it":"α-tocoferolo acetato","canonical_en":"α-tocopherol acetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:banana_liofilizzata","entity_type":"inactive","canonical_it":"banana liofilizzata","canonical_en":"Freeze-dried banana","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:behenoylmacrogolgliceride","entity_type":"inactive","canonical_it":"behenoyl-macrogolgliceride","canonical_en":"Behenoyl macrogolglyceride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:benzalconio_cloruro","entity_type":"inactive","canonical_it":"benzalconio cloruro","canonical_en":"Benzalkonium chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:benzoato_di_benzile","entity_type":"inactive","canonical_it":"benzoato di benzile","canonical_en":"Benzyl benzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:biossido_di_silicio_precipitato","entity_type":"inactive","canonical_it":"biossido di silicio precipitato","canonical_en":"Precipitated silicon dioxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:biossido_di_titanio_e171","entity_type":"inactive","canonical_it":"biossido di titanio (e171)","canonical_en":"Titanium dioxide (E171)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:blu_brillante_e133","entity_type":"inactive","canonical_it":"blu brillante (e133)","canonical_en":"brilliant blue (e133)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:blu_brillante_fcf_lacca_alluminio","entity_type":"inactive","canonical_it":"blu brillante fcf - lacca alluminio","canonical_en":"bright blue fcf - aluminum lacquer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:blu_patent_e131","entity_type":"inactive","canonical_it":"blu patent (e 131)","canonical_en":"patent blue (e 131)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:borace","entity_type":"inactive","canonical_it":"borace","canonical_en":"Borax","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:bromuro_di_domifene","entity_type":"inactive","canonical_it":"bromuro di domifene","canonical_en":"Domiphen bromide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:butile_metacrilato_copolimero_basico","entity_type":"inactive","canonical_it":"butile metacrilato copolimero basico","canonical_en":"Butyl methacrylate basic copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:butilidrossianisolo","entity_type":"inactive","canonical_it":"butilidrossianisolo","canonical_en":"butilidrossianisolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:butilidrossitoluene_e321","entity_type":"inactive","canonical_it":"butilidrossitoluene e321","canonical_en":"butylated hydroxytoluene e321","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:calcio_carbonato","entity_type":"inactive","canonical_it":"calcio carbonato","canonical_en":"calcium carbonate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:calcio_fosfato_bibasico_anidro","entity_type":"inactive","canonical_it":"calcio fosfato bibasico, anidro","canonical_en":"Dibasic calcium phosphate, anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:calcio_fosfato_dibasico_e341","entity_type":"inactive","canonical_it":"calcio fosfato dibasico (e341)","canonical_en":"Dicalcium phosphate (E341)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:calcio_lattato_mg_20","entity_type":"inactive","canonical_it":"calcio lattato mg 20","canonical_en":"calcium lactate mg 20","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:calcio_levulinato_biidrato","entity_type":"inactive","canonical_it":"calcio levulinato biidrato","canonical_en":"Calcium levulinate bihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:caloxetato_trisodico","entity_type":"inactive","canonical_it":"caloxetato trisodico","canonical_en":"Trisodium caloxetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:caolino_leggero_naturale","entity_type":"inactive","canonical_it":"caolino leggero (naturale)","canonical_en":"Light kaolin (natural)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:caolino_sterile","entity_type":"inactive","canonical_it":"caolino sterile","canonical_en":"Sterile kaolin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:carbomer","entity_type":"inactive","canonical_it":"carbomer","canonical_en":"carbomer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:carbossimetilamido","entity_type":"inactive","canonical_it":"carbossimetilamido","canonical_en":"Carboxymethyl starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:carmellosa_calcica","entity_type":"inactive","canonical_it":"carmellosa calcica","canonical_en":"Calcium carmellose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:carmellosa_sodica","entity_type":"inactive","canonical_it":"carmellosa sodica","canonical_en":"Sodium carmellose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:carminio_e120","entity_type":"inactive","canonical_it":"carminio (e120)","canonical_en":"Carmine (E120)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:celluiosa_microgranulare","entity_type":"inactive","canonical_it":"celluiosa microgranulare","canonical_en":"Microgranular cellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_acetato","entity_type":"inactive","canonical_it":"cellulosa acetato","canonical_en":"Cellulose acetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_in_polvere","entity_type":"inactive","canonical_it":"cellulosa in polvere","canonical_en":"Cellulose in powder","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_microcristallina_e460","entity_type":"inactive","canonical_it":"cellulosa microcristallina (e460)","canonical_en":"Microcrystalline cellulose (E460)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_microcristallina_grado101","entity_type":"inactive","canonical_it":"cellulosa microcristallina (grado-101)","canonical_en":"Microcrystalline cellulose (grade-101)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_microcristallina_ph101","entity_type":"inactive","canonical_it":"cellulosa microcristallina (ph101)","canonical_en":"Microcrystalline cellulose (ph101)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_microcristallina_silicizzata","entity_type":"inactive","canonical_it":"cellulosa microcristallina silicizzata","canonical_en":"Silicified microcrystalline cellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cellulosa_microcristallinacarmellosa_sodica","entity_type":"inactive","canonical_it":"cellulosa microcristallina–carmellosa sodica","canonical_en":"Microcrystalline cellulose–sodium carmellose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:cera_carnauba","entity_type":"inactive","canonical_it":"cera carnauba","canonical_en":"carnauba wax","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:coccodietanolamide","entity_type":"inactive","canonical_it":"coccodietanolamide","canonical_en":"Cocamide DEA","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colesterolo","entity_type":"inactive","canonical_it":"colesterolo","canonical_en":"Cholesterol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colorante_di_tipo_naturale_e141","entity_type":"inactive","canonical_it":"colorante di tipo naturale e141","canonical_en":"Natural colorant type e141","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colorante_e102_tartrazina","entity_type":"inactive","canonical_it":"colorante e 102 (tartrazina)","canonical_en":"colorant E 102 (tartrazine)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colorante_e110_giallo_tramonto","entity_type":"inactive","canonical_it":"colorante e 110 (giallo tramonto)","canonical_en":"colorant E 110 (sunset yellow)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colorante_indigotina_e132","entity_type":"inactive","canonical_it":"colorante indigotina (e132)","canonical_en":"Indigotine dye (E132)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:colorante_ossido_di_ferro_nero_e172","entity_type":"inactive","canonical_it":"colorante ossido di ferro nero (e172)","canonical_en":"Colorant black iron oxide (E172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:complessi_di_clorofillina_e141","entity_type":"inactive","canonical_it":"complessi di clorofillina (e141)","canonical_en":"Chlorophyllin complexes (E141)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimeri_metacrilici","entity_type":"inactive","canonical_it":"copolimeri metacrilici","canonical_en":"Methacrylic copolymers","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_acido_metacrilicoetilacrilato_1_1_contenente_copolimero_dellacido_metacrilico_e_etilacrilato_sodio_laurilsolfato_e_polisorbato_80","entity_type":"inactive","canonical_it":"copolimero acido metacrilico-etilacrilato (1:1) contenente copolimero dell’acido metacrilico e etilacrilato, sodio laurilsolfato e polisorbato 80","canonical_en":"Methacrylic acid-ethyl acrylate copolymer (1:1) containing methacrylic acid and ethyl acrylate copolymer, sodium lauryl sulfate, and polysorbate 80","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_ammonio_metacrilato_tipo_b","entity_type":"inactive","canonical_it":"copolimero ammonio metacrilato tipo b","canonical_en":"Ammonium methacrylate copolymer type b","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_cationico_di_metacrilati_mg_9_69","entity_type":"inactive","canonical_it":"copolimero cationico di metacrilati mg 9,69","canonical_en":"Cationic copolymer of methacrylates mg 9.69","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_di_2etilesilacrilato_vinil_acetato","entity_type":"inactive","canonical_it":"copolimero di 2-etilesilacrilato vinil acetato","canonical_en":"2-ethylhexyl acrylate vinyl acetate copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_di_metacrilato_butilato_basico","entity_type":"inactive","canonical_it":"copolimero di metacrilato butilato basico","canonical_en":"Basic butyl methacrylate copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copolimero_di_metacrilato_butilato_basico_eudragit_e100","entity_type":"inactive","canonical_it":"copolimero di metacrilato butilato basico (eudragit e 100)","canonical_en":"Basic butyl methacrylate copolymer (eudragit e 100)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copovidone","entity_type":"inactive","canonical_it":"copovidone","canonical_en":"copovidone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:copovidone_252308","entity_type":"inactive","canonical_it":"copovidone (25.2-30.8)","canonical_en":"copovidone (25.2-30.8)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:crospovidone_e1202","entity_type":"inactive","canonical_it":"crospovidone (e1202)","canonical_en":"crospovidone (e1202)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:crospovidone_poliplasdone_xl10_di_grado_farmaceutico","entity_type":"inactive","canonical_it":"crospovidone (poliplasdone xl-10 di grado farmaceutico)","canonical_en":"crospovidone (pharmaceutical grade polypasdone xl-10)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:crospovidone_tipo_a","entity_type":"inactive","canonical_it":"crospovidone (tipo a)","canonical_en":"crospovidone (type a)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:curcumina_e100_contenente_sodio_benzoato_e211","entity_type":"inactive","canonical_it":"curcumina (e100) (contenente sodio benzoato (e211))","canonical_en":"curcumin (e100) (containing sodium benzoate (e211))","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:d_l_alfa_tocoferolo","entity_type":"inactive","canonical_it":"d,l alfa tocoferolo","canonical_en":"d,l alpha tocopherol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:destrani_idrati_contenenti_glucosio","entity_type":"inactive","canonical_it":"destrani idrati (contenenti glucosio)","canonical_en":"Dextrins hydrates (containing glucose)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:destrati_idrati","entity_type":"inactive","canonical_it":"destrati idrati","canonical_en":"Dehydrated layers","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:dibutilsebacato","entity_type":"inactive","canonical_it":"dibutilsebacato","canonical_en":"dibutyl sebacate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:dietilftalato","entity_type":"inactive","canonical_it":"dietilftalato","canonical_en":"Diethyl phthalate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:diisopropil_adipato","entity_type":"inactive","canonical_it":"diisopropil adipato","canonical_en":"Diisopropyl adipate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:dimeticone","entity_type":"inactive","canonical_it":"dimeticone","canonical_en":"dimeticone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:disodio_edetato","entity_type":"inactive","canonical_it":"disodio edetato","canonical_en":"Disodium edetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:disodio_fosfato_anidro","entity_type":"inactive","canonical_it":"disodio fosfato anidro","canonical_en":"Disodium phosphate anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:disodio_fosfato_diidrato","entity_type":"inactive","canonical_it":"disodio fosfato diidrato","canonical_en":"Disodium phosphate dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:dodecan1ol","entity_type":"inactive","canonical_it":"dodecan-1-ol","canonical_en":"dodecan-1-ol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:e104","entity_type":"inactive","canonical_it":"e 104","canonical_en":"and 104","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:e110","entity_type":"inactive","canonical_it":"e 110","canonical_en":"and 110","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:emulsione_di_dimeticone_al_35_contenente_dimeticone_propilpidrossibenzoato_e216_metilpidrossibenzoato_e218_acido_sorbico_sodio_benzoato_polietilenglicole_sorbitano_monolaurato_octilfenossi_polietossietanolo_e_propilenglicole","entity_type":"inactive","canonical_it":"emulsione di dimeticone al 35% contenente dimeticone, propil-p-idrossibenzoato (e216), metil-p-idrossibenzoato (e218), acido sorbico, sodio benzoato, polietilenglicole sorbitano monolaurato, octilfenossi polietossietanolo e propilenglicole","canonical_en":"35% dimethicone emulsion containing dimethicone, propyl p-hydroxybenzoate (e216), methyl p-hydroxybenzoate (e218), sorbic acid, sodium benzoate, polyethylene glycol sorbitan monolaurate, octylphenoxy polyethoxyethanol, and propylene glycol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:eritrosina_e127","entity_type":"inactive","canonical_it":"eritrosina (e 127)","canonical_en":"Erythrosine (E 127)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:eritrosina_idacol_603087_e127","entity_type":"inactive","canonical_it":"eritrosina idacol 603087 (e127)","canonical_en":"erythrosine idacol 603087 (e127)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ess_menta_trirettificata","entity_type":"inactive","canonical_it":"ess. menta trirettificata","canonical_en":"Ess. trirectified mint","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:essenza_di_limone","entity_type":"inactive","canonical_it":"essenza di limone","canonical_en":"Lemon essence","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:essenza_di_menta","entity_type":"inactive","canonical_it":"essenza di menta","canonical_en":"Mint essence","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:essenza_di_timo","entity_type":"inactive","canonical_it":"essenza di timo","canonical_en":"Thyme essence","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:estere_del_glicerolo_di_colofonia_idrogenata","entity_type":"inactive","canonical_it":"estere del glicerolo di colofonia idrogenata","canonical_en":"Ester of hydrogenated rosin glycerol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:estere_del_glicerolo_di_colofonia_maleata","entity_type":"inactive","canonical_it":"estere del glicerolo di colofonia maleata","canonical_en":"Ester of maleated rosin glycerol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etanolo_96","entity_type":"inactive","canonical_it":"etanolo 96 %","canonical_en":"ethanol 96%","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etanolo_96_percento","entity_type":"inactive","canonical_it":"etanolo (96 percento)","canonical_en":"ethanol (96 percent)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etilcellulosa_e462","entity_type":"inactive","canonical_it":"etilcellulosa (e462)","canonical_en":"ethylcellulose (e462)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etile_pidrossibenzoato","entity_type":"inactive","canonical_it":"etile p–idrossibenzoato","canonical_en":"ethyl p-hydroxybenzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etilenvinilacetatocopolimero","entity_type":"inactive","canonical_it":"etilenvinilacetato-copolimero","canonical_en":"Ethylene-vinyl acetate copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:etilvanillina","entity_type":"inactive","canonical_it":"etilvanillina","canonical_en":"Ethylvanillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:eudragit_e","entity_type":"inactive","canonical_it":"eudragit e","canonical_en":"eudragit e","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ferro_ossido_bruno_e172","entity_type":"inactive","canonical_it":"ferro ossido bruno (e172)","canonical_en":"Iron oxide brown (E172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ferro_ossido_e172","entity_type":"inactive","canonical_it":"ferro ossido (e172)","canonical_en":"iron oxide (e172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ferro_ossido_giallo_e172","entity_type":"inactive","canonical_it":"ferro ossido giallo (e172)","canonical_en":"Iron oxide yellow (E172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ferro_ossido_nero_e172","entity_type":"inactive","canonical_it":"ferro ossido nero (e172)","canonical_en":"black iron oxide (e172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_colorato_di_poliestere_etilenvinilacetato","entity_type":"inactive","canonical_it":"film colorato di poliestere/etilen-vinil-acetato","canonical_en":"polyester/ethylene-vinyl acetate colored film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_colorato_di_polietilene_tereftalato_etilenvinilacetato_copolimero","entity_type":"inactive","canonical_it":"film colorato di polietilene tereftalato/etilen-vinil-acetato copolimero","canonical_en":"Polyethylene terephthalate/ethylene-vinyl acetate copolymer colored film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_copolimero_di_acetato_vinilico_poliestere_etilene","entity_type":"inactive","canonical_it":"film, copolimero di acetato vinilico poliestere / etilene","canonical_en":"Film, polyester/vinyl acetate copolymer/ethylene","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_di_etilene_vinilacetato_copolimero","entity_type":"inactive","canonical_it":"film di etilene vinilacetato copolimero","canonical_en":"Ethylene vinyl acetate copolymer film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_di_poliestere_trattato_con_silicone","entity_type":"inactive","canonical_it":"film di poliestere, trattato con silicone","canonical_en":"Polyester film, treated with silicone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_di_polietilene_tereftalato_con_rivestimento_di_rilascio_in_fluorocarbonio","entity_type":"inactive","canonical_it":"film di polietilene tereftalato con rivestimento di rilascio in fluorocarbonio","canonical_en":"Polyethylene terephthalate film with fluorocarbon release coating","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_di_polietilene_tereftalato_pigmentato_etilenvinilacetato_copolimero","entity_type":"inactive","canonical_it":"film di polietilene tereftalato pigmentato/etilen-vinil-acetato copolimero","canonical_en":"Pigmented polyethylene terephthalate film/ethylene-vinyl acetate copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_in_poli_etilene_tereftalato","entity_type":"inactive","canonical_it":"film in poli (etilene tereftalato)","canonical_en":"film in polyethylene terephthalate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_in_polietilene_tereftalato_siliconato","entity_type":"inactive","canonical_it":"film in polietilene tereftalato siliconato","canonical_en":"Siliconized polyethylene terephthalate film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_poliestere_siliconato","entity_type":"inactive","canonical_it":"film, poliestere siliconato","canonical_en":"Film, siliconized polyester","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:film_protettivo_in_polipropilene","entity_type":"inactive","canonical_it":"film protettivo in polipropilene","canonical_en":"Polypropylene protective film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:foglio_di_polietilene_tereftalato_siliconato","entity_type":"inactive","canonical_it":"foglio di polietilene tereftalato (siliconato)","canonical_en":"Polyethylene terephthalate sheet (siliconized)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:foglio_di_polipropilene","entity_type":"inactive","canonical_it":"foglio di polipropilene","canonical_en":"Polypropylene sheet","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:fosfato_sodico_monobasico_anidro","entity_type":"inactive","canonical_it":"fosfato sodico monobasico (anidro)","canonical_en":"Monobasic sodium phosphate (anhydrous)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:fosfato_sodico_tribasico_anidro","entity_type":"inactive","canonical_it":"fosfato sodico tribasico (anidro)","canonical_en":"Trisodium phosphate (anhydrous)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:fosfato_tricalcico","entity_type":"inactive","canonical_it":"fosfato tricalcico","canonical_en":"Tricalcium phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gelatina","entity_type":"inactive","canonical_it":"gelatina","canonical_en":"Gelatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gelatina_naturale","entity_type":"inactive","canonical_it":"gelatina naturale","canonical_en":"Natural gelatin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_arancio_s_e110","entity_type":"inactive","canonical_it":"giallo arancio s e 110","canonical_en":"yellow orange s e 110","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_chinolina_e104","entity_type":"inactive","canonical_it":"giallo chinolina (e 104)","canonical_en":"Quinoline yellow (E 104)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_d_c_n_10_lacca_alluminio","entity_type":"inactive","canonical_it":"giallo d &c n. 10 - lacca alluminio","canonical_en":"yellow d &c n. 10 - aluminum lacquer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_tramonto_e110","entity_type":"inactive","canonical_it":"giallo tramonto (e 110)","canonical_en":"Yellow sunset (and 110)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_tramonto_fcf_e110","entity_type":"inactive","canonical_it":"giallo tramonto fcf (e110)","canonical_en":"yellow sunset fcf (e110)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:giallo_tramonto_fcf_sale_di_alluminio_e110","entity_type":"inactive","canonical_it":"giallo tramonto fcf sale di alluminio (e110)","canonical_en":"Sunset yellow FCF aluminum lake (E110)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gliceridi_semisintetici","entity_type":"inactive","canonical_it":"gliceridi semisintetici","canonical_en":"Semisynthetic glycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gliceridi_semisintetici_liquidi","entity_type":"inactive","canonical_it":"gliceridi semisintetici liquidi","canonical_en":"Liquid semi-synthetic glycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gliceridi_semisintetici_solidi","entity_type":"inactive","canonical_it":"gliceridi semi-sintetici solidi","canonical_en":"Solid semi-synthetic glycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicerilmonostearato_mg_8","entity_type":"inactive","canonical_it":"glicerilmonostearato mg 8","canonical_en":"Glyceryl monostearate mg 8","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicerolo_dibeenato","entity_type":"inactive","canonical_it":"glicerolo dibeenato","canonical_en":"Dibehenate glycerol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicerolo_distearato_tipo_i","entity_type":"inactive","canonical_it":"glicerolo distearato (tipo i)","canonical_en":"Glycerol distearate (type I)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicerolo_e422","entity_type":"inactive","canonical_it":"glicerolo (e422)","canonical_en":"Glycerol (E422)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicerolo_monostearato_4055","entity_type":"inactive","canonical_it":"glicerolo monostearato 40-55","canonical_en":"Glycerol monostearate 40-55","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicole_dipropilenico","entity_type":"inactive","canonical_it":"glicole dipropilenico","canonical_en":"Dipropylene glycol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glicole_etilenico","entity_type":"inactive","canonical_it":"glicole etilenico","canonical_en":"Ethylene glycol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:glucosio_anidro","entity_type":"inactive","canonical_it":"glucosio anidro","canonical_en":"Anhydrous glucose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gomma_adragante","entity_type":"inactive","canonical_it":"gomma adragante","canonical_en":"Tragacanth gum","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gomma_butilica","entity_type":"inactive","canonical_it":"gomma butilica","canonical_en":"Butyl rubber","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gomma_lacca_decerata","entity_type":"inactive","canonical_it":"gomma lacca decerata","canonical_en":"Dewaxed shellac","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gomma_naturale","entity_type":"inactive","canonical_it":"gomma naturale","canonical_en":"Natural rubber","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:gomma_xantan","entity_type":"inactive","canonical_it":"gomma xantan","canonical_en":"xanthan gum","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossicitronellale","entity_type":"inactive","canonical_it":"idrossicitronellale","canonical_en":"Hydroxycitronellal","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossido_di_sodio_o_acido_cloridrico","entity_type":"inactive","canonical_it":"idrossido di sodio o acido cloridrico","canonical_en":"Sodium hydroxide or hydrochloric acid","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossido_di_sodio_per_correggere_il_ph","entity_type":"inactive","canonical_it":"idrossido di sodio (per correggere il ph)","canonical_en":"Sodium hydroxide (to correct the pH)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossietilcellulosa","entity_type":"inactive","canonical_it":"idrossietilcellulosa","canonical_en":"Hydroxyethylcellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossipropil_bciclodestrina","entity_type":"inactive","canonical_it":"idrossipropil β-ciclodestrina","canonical_en":"hydroxypropyl β-cyclodextrin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossipropil_diamido_fosfato_e1442_contramid","entity_type":"inactive","canonical_it":"idrossipropil diamido fosfato (e1442) (contramid)","canonical_en":"Hydroxypropyl distarch phosphate (E1442) (Contramid)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossipropilcellulosa_a_bassa_sostituzione","entity_type":"inactive","canonical_it":"idrossipropilcellulosa a bassa sostituzione","canonical_en":"Low-substituted hydroxypropyl cellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:idrossipropilcellulosa_e463","entity_type":"inactive","canonical_it":"idrossipropilcellulosa (e463)","canonical_en":"Hydroxypropyl cellulose (E463)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostri_di_stampa_beige_e_arancione_o_rosso_o_verde_o_blu_o_grigio","entity_type":"inactive","canonical_it":"inchiostri di stampa (beige e arancione o rosso o verde o blu o grigio)","canonical_en":"Printing inks (beige and orange or red or green or blue or gray)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_blu_per_stampa","entity_type":"inactive","canonical_it":"inchiostro blu per stampa","canonical_en":"Blue ink for printing","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_da_stampa","entity_type":"inactive","canonical_it":"inchiostro da stampa","canonical_en":"Printing ink","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_da_stampa_di_colore_blu","entity_type":"inactive","canonical_it":"inchiostro da stampa di colore blu","canonical_en":"Blue printing ink","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_da_stampa_gommalacca","entity_type":"inactive","canonical_it":"inchiostro da stampa [gommalacca","canonical_en":"Printing ink [shellac","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_da_stampa_gommalacca_ferro_ossido_nero_e172","entity_type":"inactive","canonical_it":"inchiostro da stampa [gommalacca, ferro ossido nero (e172)]","canonical_en":"Printing ink [shellac, black iron oxide (E172)]","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_da_stampa_per_uso_alimentare_ossido_di_ferro_nero_soluzione_concentrata_di_ammonio_potassio_idrossido_lacca_glicole_propilenico","entity_type":"inactive","canonical_it":"inchiostro da stampa per uso alimentare (ossido di ferro nero, soluzione concentrata di ammonio, potassio idrossido, lacca, glicole propilenico)","canonical_en":"Printing ink for food use (black iron oxide, concentrated ammonium solution, potassium hydroxide, lacquer, propylene glycol)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_stampabile_blu","entity_type":"inactive","canonical_it":"inchiostro stampabile, blu","canonical_en":"Printable ink, blue","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:inchiostro_stampabile_verde","entity_type":"inactive","canonical_it":"inchiostro stampabile, verde","canonical_en":"Printable ink, green","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:indaco_carminio_lacca_alluminio","entity_type":"inactive","canonical_it":"indaco carminio - lacca alluminio","canonical_en":"Indigo carmine - aluminum lacquer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:indigo_carmine_lacca_alluminio_e132","entity_type":"inactive","canonical_it":"indigo carmine lacca alluminio (e132)","canonical_en":"indigo carmine aluminum lake (e132)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:indigotina_e132","entity_type":"inactive","canonical_it":"indigotina (e 132)","canonical_en":"Indigotine (E 132)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:indigotina_lacca_dalluminio_e132","entity_type":"inactive","canonical_it":"indigotina lacca d’alluminio (e132)","canonical_en":"Indigotine aluminum lake (E132)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:indigotina_lacca_e132","entity_type":"inactive","canonical_it":"indigotina lacca (e132)","canonical_en":"Indigotine lacquer (E132)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa","entity_type":"inactive","canonical_it":"ipromellosa","canonical_en":"ipromellosa","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_100_000_mpa_s","entity_type":"inactive","canonical_it":"ipromellosa 100 000 mpa s","canonical_en":"ipromellosa 100 000 mpa s","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_15000","entity_type":"inactive","canonical_it":"ipromellosa 15000","canonical_en":"ipromellosa 15000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_2910","entity_type":"inactive","canonical_it":"ipromellosa 2910","canonical_en":"ipromellosa 2910","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_4000","entity_type":"inactive","canonical_it":"ipromellosa 4000","canonical_en":"ipromellosa 4000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_5","entity_type":"inactive","canonical_it":"ipromellosa 5","canonical_en":"ipromellosa 5","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_6_cp","entity_type":"inactive","canonical_it":"ipromellosa 6 cp","canonical_en":"ipromellosa 6 cp","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ipromellosa_6_mpa_s","entity_type":"inactive","canonical_it":"ipromellosa 6 mpa s","canonical_en":"ipromellosa 6 mpa s","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:isoeugenolo","entity_type":"inactive","canonical_it":"isoeugenolo","canonical_en":"isoeugenol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:isomalto_e953","entity_type":"inactive","canonical_it":"isomalto (e953)","canonical_en":"Isomalt (E953)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lamina_di_poli_etilentereftalato","entity_type":"inactive","canonical_it":"lamina di poli(etilentereftalato)","canonical_en":"Poly(ethylene terephthalate) sheet","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lamina_di_poli_etilentereftalato_siliconata_e_rivestita_di_alluminio_su_un_lato","entity_type":"inactive","canonical_it":"lamina di poli(etilentereftalato), siliconata e rivestita di alluminio su un lato","canonical_en":"Siliconized poly(ethylene terephthalate) sheet, aluminum-coated on one side","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lamina_di_polietilene_tereftalato","entity_type":"inactive","canonical_it":"lamina di polietilene tereftalato","canonical_en":"Polyethylene terephthalate sheet","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lamina_di_polietilentereftalato_siliconata","entity_type":"inactive","canonical_it":"lamina di polietilen-tereftalato, siliconata","canonical_en":"Siliconized polyethylene terephthalate sheet","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lanolina","entity_type":"inactive","canonical_it":"lanolina","canonical_en":"Lanolin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lanolina_anidra","entity_type":"inactive","canonical_it":"lanolina anidra","canonical_en":"Anhydrous lanolin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lattosio","entity_type":"inactive","canonical_it":"lattosio","canonical_en":"lactose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lattosio_anidro","entity_type":"inactive","canonical_it":"lattosio anidro","canonical_en":"Anhydrous lactose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lattosio_mg_82","entity_type":"inactive","canonical_it":"lattosio mg 82","canonical_en":"lactose mg 82","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lattosio_monoidrato","entity_type":"inactive","canonical_it":"lattosio monoidrato","canonical_en":"Lactose monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lecitina","entity_type":"inactive","canonical_it":"lecitina","canonical_en":"Lecithin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lecitina_duovo","entity_type":"inactive","canonical_it":"lecitina d’uovo","canonical_en":"Egg lecithin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:levomentolo","entity_type":"inactive","canonical_it":"levomentolo","canonical_en":"Levomenthol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina","entity_type":"inactive","canonical_it":"lidocaina","canonical_en":"Lidocaine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cioridrato","entity_type":"inactive","canonical_it":"lidocaina cioridrato","canonical_en":"lidocaine hydrochloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_15_mg","entity_type":"inactive","canonical_it":"lidocaina cloridrato 15 mg","canonical_en":"lidocaine hydrochloride 15 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_20_mg","entity_type":"inactive","canonical_it":"lidocaina cloridrato 20 mg","canonical_en":"lidocaine hydrochloride 20 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_30_8_mg","entity_type":"inactive","canonical_it":"lidocaina cloridrato 30,8 mg","canonical_en":"lidocaine hydrochloride 30.8 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_fu","entity_type":"inactive","canonical_it":"lidocaina cloridrato f.u.","canonical_en":"lidocaine hydrochloride p.h.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_mg_20_00","entity_type":"inactive","canonical_it":"lidocaina cloridrato mg 20,00","canonical_en":"lidocaine hydrochloride mg 20.00","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:lidocaina_cloridrato_monoidrato","entity_type":"inactive","canonical_it":"lidocaina cloridrato monoidrato","canonical_en":"lidocaine hydrochloride monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol","entity_type":"inactive","canonical_it":"macrogol","canonical_en":"Macrogol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_300","entity_type":"inactive","canonical_it":"macrogol 300","canonical_en":"macrogol 300","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_3350","entity_type":"inactive","canonical_it":"macrogol 3350","canonical_en":"macrogol 3350","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_4000","entity_type":"inactive","canonical_it":"macrogol 4000","canonical_en":"macrogol 4000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_6000","entity_type":"inactive","canonical_it":"macrogol 6000","canonical_en":"macrogol 6000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_8000","entity_type":"inactive","canonical_it":"macrogol 8000","canonical_en":"macrogol 8000","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_8_stearato","entity_type":"inactive","canonical_it":"macrogol 8 stearato","canonical_en":"macrogol 8 stearate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_lauril_etere_9_eo_unita","entity_type":"inactive","canonical_it":"macrogol lauril etere (9 eo unità)","canonical_en":"macrogol lauryl ether (9 eo units)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_monometiletere_350","entity_type":"inactive","canonical_it":"macrogol monometiletere 350","canonical_en":"macrogol monomethyl ether 350","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:macrogol_stearato_400","entity_type":"inactive","canonical_it":"macrogol stearato 400","canonical_en":"Macrogol stearate 400","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:magnesio_cloruro_esaidrato","entity_type":"inactive","canonical_it":"magnesio cloruro esaidrato","canonical_en":"magnesium chloride hexahydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:magnesio_stearato_e470b","entity_type":"inactive","canonical_it":"magnesio stearato (e470b)","canonical_en":"Magnesium stearate (E470b)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:magnesio_stearato_ph_eur","entity_type":"inactive","canonical_it":"magnesio stearato (ph. eur.)","canonical_en":"Magnesium stearate (ph. eur.)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:magnesio_trisilicato","entity_type":"inactive","canonical_it":"magnesio trisilicato","canonical_en":"Magnesium trisilicate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:maltodestrina","entity_type":"inactive","canonical_it":"maltodestrina","canonical_en":"Maltodextrin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:mannite","entity_type":"inactive","canonical_it":"mannite","canonical_en":"Mannite","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:mannite_50_mg","entity_type":"inactive","canonical_it":"mannite 50 mg","canonical_en":"mannite 50 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:mannitolo_crospovidone","entity_type":"inactive","canonical_it":"mannitolo crospovidone","canonical_en":"mannitol crospovidone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:meglumina","entity_type":"inactive","canonical_it":"meglumina","canonical_en":"meglumine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:membrana_di_rilascio","entity_type":"inactive","canonical_it":"membrana di rilascio","canonical_en":"Release membrane","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:membrana_di_rilascio_etilenvinilacetato_eva","entity_type":"inactive","canonical_it":"membrana di rilascio, etilenvinilacetato (eva)","canonical_en":"Release membrane, ethylene-vinyl acetate (EVA)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:menta_aroma_polvere_contiene_alcol_benzilico","entity_type":"inactive","canonical_it":"menta aroma polvere (contiene alcol benzilico)","canonical_en":"Mint aroma powder (contains benzyl alcohol)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:metilcellulosa","entity_type":"inactive","canonical_it":"metilcellulosa","canonical_en":"Methylcellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:metile_pidrossibenzoato_sodico","entity_type":"inactive","canonical_it":"metile p-idrossibenzoato sodico","canonical_en":"Sodium methyl p-hydroxybenzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:metilidrossipropilcellulosa","entity_type":"inactive","canonical_it":"metilidrossipropilcellulosa","canonical_en":"Methyl hydroxypropyl cellulose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:metilparabene","entity_type":"inactive","canonical_it":"metilparabene","canonical_en":"methylparaben","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:metionina","entity_type":"inactive","canonical_it":"metionina","canonical_en":"Methionine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:microgranuli_di_saccarosio_e_amido_di_mais","entity_type":"inactive","canonical_it":"microgranuli di saccarosio e amido di mais","canonical_en":"Microgranules of sucrose and corn starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:microsfere_di_zucchero_saccarosio_e_amido_di_mais","entity_type":"inactive","canonical_it":"microsfere di zucchero (saccarosio e amido di mais)","canonical_en":"Sugar microspheres (sucrose and corn starch)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:miscela_di_monodigliceridi_di_acidi_grassi","entity_type":"inactive","canonical_it":"miscela di mono-di-gliceridi di acidi grassi","canonical_en":"Mixture of mono- and diglycerides of fatty acids","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:miscela_di_profumi","entity_type":"inactive","canonical_it":"miscela di profumi","canonical_en":"Blend of perfumes","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:monogliceridi_diacetilati","entity_type":"inactive","canonical_it":"monogliceridi diacetilati","canonical_en":"Diacetylated monoglycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:muschio_di_quercia_assoluto","entity_type":"inactive","canonical_it":"muschio di quercia assoluto","canonical_en":"Oakmoss absolute","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:nessuno","entity_type":"inactive","canonical_it":"nessuno","canonical_en":"nobody","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:non_pertinente","entity_type":"inactive","canonical_it":"non pertinente.","canonical_en":"Irrelevant.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:non_presenti","entity_type":"inactive","canonical_it":"non presenti.","canonical_en":"Not present.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:nonossinolo_30","entity_type":"inactive","canonical_it":"nonossinolo 30","canonical_en":"nonossinolo 30","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:oleil_oleato","entity_type":"inactive","canonical_it":"oleil oleato","canonical_en":"oleil oleato","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_arachidi_idrogenato","entity_type":"inactive","canonical_it":"olio arachidi idrogenato","canonical_en":"Hydrogenated peanut oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_composto_di_fragola","entity_type":"inactive","canonical_it":"olio composto di fragola","canonical_en":"Strawberry compound oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_arachidi","entity_type":"inactive","canonical_it":"olio di arachidi","canonical_en":"Peanut oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_fegato_di_merluzzo","entity_type":"inactive","canonical_it":"olio di fegato di merluzzo","canonical_en":"Cod liver oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_menta_piperita","entity_type":"inactive","canonical_it":"olio di menta piperita","canonical_en":"Peppermint oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_ricino_idrogenato","entity_type":"inactive","canonical_it":"olio di ricino idrogenato","canonical_en":"Hydrogenated castor oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_ricino_poliossietilato","entity_type":"inactive","canonical_it":"olio di ricino poliossietilato","canonical_en":"Polyoxyethylated castor oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_ricino_poliossietilenato","entity_type":"inactive","canonical_it":"olio di ricino poliossietilenato","canonical_en":"Polyoxyethylene castor oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_ricino_raffinato","entity_type":"inactive","canonical_it":"olio di ricino raffinato","canonical_en":"Refined castor oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_di_vaselina","entity_type":"inactive","canonical_it":"olio di vaselina","canonical_en":"Vaseline oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_essenziale_di_limone","entity_type":"inactive","canonical_it":"olio essenziale di limone","canonical_en":"Lemon essential oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_vegetale_idrogenato","entity_type":"inactive","canonical_it":"olio vegetale idrogenato","canonical_en":"Hydrogenated vegetable oil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:olio_vegetale_idrogenato_olio_di_semi_di_cotone","entity_type":"inactive","canonical_it":"olio vegetale idrogenato (olio di semi di cotone)","canonical_en":"Hydrogenated vegetable oil (cottonseed oil)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry","entity_type":"inactive","canonical_it":"opadry","canonical_en":"opadry","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry_blue_ys_14215","entity_type":"inactive","canonical_it":"opadry blue ys 1-4215","canonical_en":"opadry blue ys 1-4215","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry_oy3508","entity_type":"inactive","canonical_it":"opadry oy-3508","canonical_en":"opadry oy-3508","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry_oy5970","entity_type":"inactive","canonical_it":"opadry oy-5970","canonical_en":"opadry oy-5970","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry_oy6708","entity_type":"inactive","canonical_it":"opadry oy-6708","canonical_en":"opadry oy-6708","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:opadry_oy8215","entity_type":"inactive","canonical_it":"opadry oy-8215","canonical_en":"opadry oy-8215","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:ossido_di_ferro_iii_rosso_e172","entity_type":"inactive","canonical_it":"ossido di ferro (iii) rosso (e172)","canonical_en":"Red iron (iii) oxide (e172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:paraffina_dura","entity_type":"inactive","canonical_it":"paraffina dura","canonical_en":"Hard paraffin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:paraffina_liquida","entity_type":"inactive","canonical_it":"paraffina liquida","canonical_en":"Liquid paraffin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:paraffina_liquida_leggera","entity_type":"inactive","canonical_it":"paraffina liquida leggera","canonical_en":"Light liquid paraffin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:paraffina_molle_bianca_petrolato_o_acqua_purificata","entity_type":"inactive","canonical_it":"paraffina molle bianca (petrolato) o acqua purificata","canonical_en":"White soft paraffin (petrolatum) or purified water","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:pectina_e440","entity_type":"inactive","canonical_it":"pectina (e440)","canonical_en":"Pectin (E440)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:peg_400","entity_type":"inactive","canonical_it":"peg 400","canonical_en":"peg 400","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:pellicola_adesiva_in_poliacrilato","entity_type":"inactive","canonical_it":"pellicola adesiva in poliacrilato","canonical_en":"Polyacrylate adhesive film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:pellicola_di_copertura_film_in_polietilene_tereftalato_pet","entity_type":"inactive","canonical_it":"pellicola di copertura, film in polietilene tereftalato (pet)","canonical_en":"Cover film, polyethylene terephthalate (PET) film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:pellicola_di_supporto_in_poliuretano","entity_type":"inactive","canonical_it":"pellicola di supporto in poliuretano","canonical_en":"Polyurethane support film","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:pellicola_protettiva_asportabile_film_in_poliestere_rivestito_con_fluoropolimero","entity_type":"inactive","canonical_it":"pellicola protettiva asportabile, film in poliestere rivestito con fluoropolimero","canonical_en":"Removable protective film, polyester film coated with fluoropolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poli_2etilexil_acrilatocoglicidilmetacrilatoco_2idrossietil_acrilatocovinilacetato_68_0_15_5_27","entity_type":"inactive","canonical_it":"poli [(2-etilexil) acrilato-co-glicidilmetacrilato-co (2-idrossietil) acrilato-co-vinilacetato] (68:0,15:5:27)","canonical_en":"poly[(2-ethylhexyl) acrylate-co-glycidyl methacrylate-co-(2-hydroxyethyl) acrylate-co-vinyl acetate] (68:0.15:5:27)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poli_acido_acrilicocobutilacrilatoco_2etilesil_acrilatocovinilacetato_5_15_75_5","entity_type":"inactive","canonical_it":"poli [acido acrilico-co-butilacrilato-co-(2-etilesil) acrilato-co-vinilacetato] (5:15:75:5)","canonical_en":"poly[acrylic acid-co-butyl acrylate-co-(2-ethylhexyl) acrylate-co-vinyl acetate] (5:15:75:5)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poliacrilato_dispersione_30","entity_type":"inactive","canonical_it":"poliacrilato dispersione 30%","canonical_en":"Polyacrylate dispersion 30%","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polibutilene","entity_type":"inactive","canonical_it":"polibutilene","canonical_en":"Polybutylene","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:policarbofil","entity_type":"inactive","canonical_it":"policarbofil","canonical_en":"policarbophil","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polidestrosio_e1200","entity_type":"inactive","canonical_it":"polidestrosio (e1200)","canonical_en":"Polydextrose (E1200)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polidimetilsiloxano","entity_type":"inactive","canonical_it":"polidimetilsiloxano","canonical_en":"Polydimethylsiloxane","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poliestere","entity_type":"inactive","canonical_it":"poliestere","canonical_en":"Polyester","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilene_acrilato","entity_type":"inactive","canonical_it":"polietilene acrilato","canonical_en":"Polyethylene acrylate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilene_ossido_2000k","entity_type":"inactive","canonical_it":"polietilene ossido 2000k","canonical_en":"Polyethylene oxide 2000k","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilene_ossido_200k","entity_type":"inactive","canonical_it":"polietilene ossido 200k","canonical_en":"Polyethylene oxide 200k","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilenetereftalato","entity_type":"inactive","canonical_it":"polietilene-tereftalato","canonical_en":"Polyethylene terephthalate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilenetereftalato_etilenvinilacetatocopolimero","entity_type":"inactive","canonical_it":"polietilene-tereftalato/etilenvinilacetato-copolimero","canonical_en":"polyethylene terephthalate/ethylene-vinyl acetate copolymer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polietilenglicole_6000_mg_0_50","entity_type":"inactive","canonical_it":"polietilenglicole 6000 mg 0,50","canonical_en":"Polyethylene glycol 6000 mg 0.50","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polimeri_metacrilici","entity_type":"inactive","canonical_it":"polimeri metacrilici","canonical_en":"Methacrylic polymers","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polisorbato_20","entity_type":"inactive","canonical_it":"polisorbato 20","canonical_en":"Polysorbate 20","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polisorbato_60","entity_type":"inactive","canonical_it":"polisorbato 60","canonical_en":"polysorbate 60","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polisorbato_65","entity_type":"inactive","canonical_it":"polisorbato 65","canonical_en":"Polysorbate 65","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polisorbato_80_e433","entity_type":"inactive","canonical_it":"polisorbato 80 (e433)","canonical_en":"polysorbate 80 (e433)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polivinilalcool","entity_type":"inactive","canonical_it":"polivinilalcool","canonical_en":"Polyvinyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polivinile_acetato","entity_type":"inactive","canonical_it":"polivinile acetato","canonical_en":"Polyvinyl acetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polivinile_alcool_parzialmente_idrolizzato","entity_type":"inactive","canonical_it":"polivinile alcool parzialmente idrolizzato","canonical_en":"Partially hydrolyzed polyvinyl alcohol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polivinilpirrolidone_1201","entity_type":"inactive","canonical_it":"polivinilpirrolidone (1201)","canonical_en":"Polyvinylpyrrolidone (1201)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polivinilpirrolidone_mg_35","entity_type":"inactive","canonical_it":"polivinilpirrolidone mg 35","canonical_en":"polyvinylpyrrolidone mg 35","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polossamero_188","entity_type":"inactive","canonical_it":"polossamero 188","canonical_en":"polossamero 188","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poloxamer_188","entity_type":"inactive","canonical_it":"poloxamer 188","canonical_en":"poloxamer 188","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:polvere_per_soluzione_per_infusione","entity_type":"inactive","canonical_it":"polvere per soluzione per infusione","canonical_en":"Powder for solution for infusion","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poly_2ethylhexyl_acrylatecomethylacrylatecoacrylicacidco_2_3epoxypropyl_methacrylate_615_33_5_5_002","entity_type":"inactive","canonical_it":"poly[2-ethylhexyl)acrylate-co-methylacrylate-co-acrylicacid-co(2,3-epoxypropyl)methacrylate] (61.5:33:5. 5:0.02)","canonical_en":"poly[2-ethylhexyl)acrylate-co-methylacrylate-co-acrylicacid-co(2,3-epoxypropyl)methacrylate] (61.5:33:5.5:0.02)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:poly_2ethylhexylacrylate_vinylacetate_50_50","entity_type":"inactive","canonical_it":"poly(2-ethylhexylacrylate, vinylacetate) (50:50)","canonical_en":"poly(2-ethylhexylacrylate, vinylacetate) (50:50)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:possibenzoato_di_metile","entity_type":"inactive","canonical_it":"p-ossibenzoato di metile","canonical_en":"p-methyl benzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_carbonato","entity_type":"inactive","canonical_it":"potassio carbonato","canonical_en":"Potassium carbonate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_cloruro","entity_type":"inactive","canonical_it":"potassio cloruro","canonical_en":"Potassium chloride","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_diidrogeno_fosfato","entity_type":"inactive","canonical_it":"potassio diidrogeno fosfato","canonical_en":"Potassium dihydrogen phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_idrossido","entity_type":"inactive","canonical_it":"potassio idrossido","canonical_en":"Potassium hydroxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_metabisolfito","entity_type":"inactive","canonical_it":"potassio metabisolfito","canonical_en":"Potassium metabisulfite","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:potassio_sorbato","entity_type":"inactive","canonical_it":"potassio sorbato","canonical_en":"Potassium sorbate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone","entity_type":"inactive","canonical_it":"povidone","canonical_en":"Povidone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k25","entity_type":"inactive","canonical_it":"povidone (k-25)","canonical_en":"Povidone (K-25)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k2932","entity_type":"inactive","canonical_it":"povidone k29-32","canonical_en":"povidone k29-32","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k29_32","entity_type":"inactive","canonical_it":"povidone k-29/32","canonical_en":"povidone k-29/32","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k29_k32","entity_type":"inactive","canonical_it":"povidone k29/k32","canonical_en":"povidone k29/k32","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k30","entity_type":"inactive","canonical_it":"povidone k30","canonical_en":"povidone k30","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k90","entity_type":"inactive","canonical_it":"povidone k90","canonical_en":"povidone k90","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k_225_270","entity_type":"inactive","canonical_it":"povidone (k = 22.5 - 27.0)","canonical_en":"povidone (k = 22.5 - 27.0)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:povidone_k_30_magnesio_stearato","entity_type":"inactive","canonical_it":"povidone k 30 magnesio stearato","canonical_en":"povidone k 30 magnesium stearate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:profumo","entity_type":"inactive","canonical_it":"profumo","canonical_en":"Perfume","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:propilenglicole_e1520","entity_type":"inactive","canonical_it":"propilenglicole (e1520)","canonical_en":"Propylene glycol (E1520)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:propilparabene","entity_type":"inactive","canonical_it":"propilparabene","canonical_en":"propylparaben","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:resina_di_colofonia_idrogenata","entity_type":"inactive","canonical_it":"resina di colofonia (idrogenata)","canonical_en":"Hydrogenated rosin resin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:rilascio_protetto","entity_type":"inactive","canonical_it":"rilascio protetto","canonical_en":"Protected release","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:rosso_allura_ac_lacca_alluminio_e129","entity_type":"inactive","canonical_it":"rosso allura ac - lacca alluminio (e129)","canonical_en":"red allure ac - aluminum lacquer (e129)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarina","entity_type":"inactive","canonical_it":"saccarina","canonical_en":"Saccharin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarina_sodica","entity_type":"inactive","canonical_it":"saccarina sodica","canonical_en":"Sodium saccharin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarosio","entity_type":"inactive","canonical_it":"saccarosio","canonical_en":"Sucrose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarosio_monostearato","entity_type":"inactive","canonical_it":"saccarosio monostearato","canonical_en":"Sucrose monostearate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarosio_polvere_con_amido","entity_type":"inactive","canonical_it":"saccarosio polvere con amido","canonical_en":"Sucrose powder with starch","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:saccarosio_stearato","entity_type":"inactive","canonical_it":"saccarosio stearato","canonical_en":"Sucrose stearate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sciroppo_di_glucosio","entity_type":"inactive","canonical_it":"sciroppo di glucosio","canonical_en":"Glucose syrup","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sciroppo_di_maltitolo","entity_type":"inactive","canonical_it":"sciroppo di maltitolo","canonical_en":"Maltitol syrup","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sfere_di_zucchero_contenenti_saccarosio","entity_type":"inactive","canonical_it":"sfere di zucchero (contenenti saccarosio)","canonical_en":"Sugar spheres (containing sucrose)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sfere_di_zucchero_contiene_saccarosio_amido_di_mais_idrolisati_di_amido_e_additivi_coloranti","entity_type":"inactive","canonical_it":"sfere di zucchero (contiene saccarosio, amido di mais, idrolisati di amido e additivi coloranti)","canonical_en":"Sugar spheres (contains sucrose, corn starch, starch hydrolysates, and color additives)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sfere_di_zucchero_saccarosio_amido_di_mais","entity_type":"inactive","canonical_it":"sfere di zucchero (saccarosio, amido di mais)","canonical_en":"Sugar spheres (sucrose, corn starch)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sfere_di_zucchero_saccarosio_e_amido_di_mais","entity_type":"inactive","canonical_it":"sfere di zucchero (saccarosio e amido di mais)","canonical_en":"Sugar spheres (sucrose and corn starch)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:shellac","entity_type":"inactive","canonical_it":"shellac","canonical_en":"Shellac","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice","entity_type":"inactive","canonical_it":"silice","canonical_en":"Silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_anidra_colloidale","entity_type":"inactive","canonical_it":"silice anidra colloidale","canonical_en":"Colloidal anhydrous silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_colloidale","entity_type":"inactive","canonical_it":"silice colloidale","canonical_en":"Colloidal silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_colloidale_anidra_poloxamero_80","entity_type":"inactive","canonical_it":"silice colloidale anidra poloxamero 80","canonical_en":"Colloidal anhydrous silica poloxamer 80","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_colloidale_biossido","entity_type":"inactive","canonical_it":"silice colloidale biossido","canonical_en":"Colloidal silica dioxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_colloidale_idrata","entity_type":"inactive","canonical_it":"silice colloidale idrata","canonical_en":"Colloidal silica hydrates","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_microcristallina","entity_type":"inactive","canonical_it":"silice microcristallina","canonical_en":"Microcrystalline silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_pirogenica_amorfa_super_dispersa","entity_type":"inactive","canonical_it":"silice pirogenica amorfa super dispersa","canonical_en":"Amorphous super-dispersed pyrogenic silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silice_precipitata","entity_type":"inactive","canonical_it":"silice precipitata","canonical_en":"Precipitated silica","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silicone","entity_type":"inactive","canonical_it":"silicone","canonical_en":"Silicone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silicone_adesivo_aminoresistente","entity_type":"inactive","canonical_it":"silicone adesivo (amino-resistente)","canonical_en":"Adhesive silicone (amino-resistant)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silicone_adesivo_polidimetilsiloxano_resina_di_silicati","entity_type":"inactive","canonical_it":"silicone adesivo (polidimetilsiloxano, resina di silicati)","canonical_en":"Adhesive silicone (polydimethylsiloxane, silicate resin)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:silicone_medico_adesivo","entity_type":"inactive","canonical_it":"silicone medico adesivo","canonical_en":"Medical adhesive silicone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:simeticone","entity_type":"inactive","canonical_it":"simeticone","canonical_en":"Simethicone","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:simeticone_emulsione","entity_type":"inactive","canonical_it":"simeticone emulsione","canonical_en":"Simethicone emulsion","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:simeticone_emulsione_contenente_dimeticone_silice_colloidale_anidra_metilcellulosa_e_acido_sorbico","entity_type":"inactive","canonical_it":"simeticone emulsione (contenente dimeticone, silice colloidale anidra, metilcellulosa e acido sorbico)","canonical_en":"Simethicone emulsion (containing dimethicone, colloidal anhydrous silica, methylcellulose, and sorbic acid)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_amido_glicolato","entity_type":"inactive","canonical_it":"sodio amido glicolato","canonical_en":"Sodium starch glycolate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_amido_glicolato_patata","entity_type":"inactive","canonical_it":"sodio amido glicolato (patata)","canonical_en":"Sodium starch glycolate (potato)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_amido_glicolato_tipo_a","entity_type":"inactive","canonical_it":"sodio amido glicolato (tipo a)","canonical_en":"Sodium starch glycolate (type A)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_benzoato_e211","entity_type":"inactive","canonical_it":"sodio benzoato (e211)","canonical_en":"sodium benzoate (e211)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_bicarbonato","entity_type":"inactive","canonical_it":"sodio bicarbonato","canonical_en":"Sodium bicarbonate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_calcioedetato","entity_type":"inactive","canonical_it":"sodio calcioedetato","canonical_en":"Sodium calcium edetate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_caramelloso","entity_type":"inactive","canonical_it":"sodio caramelloso","canonical_en":"Caramelized sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_carbonato","entity_type":"inactive","canonical_it":"sodio carbonato","canonical_en":"Sodium carbonate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_carbonato_anidro","entity_type":"inactive","canonical_it":"sodio carbonato anidro","canonical_en":"Anhydrous sodium carbonate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_ciclamato","entity_type":"inactive","canonical_it":"sodio ciclamato","canonical_en":"Sodium cyclamate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_citrato_anidro","entity_type":"inactive","canonical_it":"sodio citrato anidro","canonical_en":"Sodium citrate anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_citrato_bibasico","entity_type":"inactive","canonical_it":"sodio citrato bibasico","canonical_en":"Sodium citrate dibasic","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_croscarmelloso","entity_type":"inactive","canonical_it":"sodio croscarmelloso","canonical_en":"Sodium croscarmellose","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_diidrogeno_fosfato_monoidrato","entity_type":"inactive","canonical_it":"sodio diidrogeno fosfato monoidrato","canonical_en":"Sodium dihydrogen phosphate monohydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_docusato","entity_type":"inactive","canonical_it":"sodio docusato","canonical_en":"Docusate sodium","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_etil_pidrossibenzoato","entity_type":"inactive","canonical_it":"sodio etil p-idrossibenzoato","canonical_en":"Sodium ethyl p-hydroxybenzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_fosfato_bibasico_biidrato","entity_type":"inactive","canonical_it":"sodio fosfato bibasico biidrato","canonical_en":"Sodium phosphate dibasic bihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_fosfato_dibasico","entity_type":"inactive","canonical_it":"sodio fosfato dibasico","canonical_en":"Dibasic sodium phosphate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_fosfato_monobasico_diidrato","entity_type":"inactive","canonical_it":"sodio fosfato monobasico diidrato","canonical_en":"Monobasic sodium phosphate dihydrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_ialuronato","entity_type":"inactive","canonical_it":"sodio ialuronato","canonical_en":"Sodium hyaluronate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido","entity_type":"inactive","canonical_it":"sodio idrossido","canonical_en":"Sodium hydroxide","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_0_1_per_aggiustare_il_ph","entity_type":"inactive","canonical_it":"sodio idrossido 0,1% (per aggiustare il ph)","canonical_en":"Sodium hydroxide 0.1% (to adjust the pH)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_1_n_per_la_regolazione_del_ph","entity_type":"inactive","canonical_it":"sodio idrossido 1 n (per la regolazione del ph)","canonical_en":"Sodium hydroxide 1 N (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_1n","entity_type":"inactive","canonical_it":"sodio idrossido 1n","canonical_en":"sodium hydroxide 1n","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_78_8_mg","entity_type":"inactive","canonical_it":"sodio idrossido 78,8 mg","canonical_en":"sodium hydroxide 78.8 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_aggiustamento_del_ph","entity_type":"inactive","canonical_it":"sodio idrossido (aggiustamento del ph)","canonical_en":"Sodium hydroxide (pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_per_aggiustamento_del_ph","entity_type":"inactive","canonical_it":"sodio idrossido (per aggiustamento del ph)","canonical_en":"Sodium hydroxide (for pH adjustment)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_idrossido_soluzione_5_n","entity_type":"inactive","canonical_it":"sodio idrossido soluzione 5 n","canonical_en":"sodium hydroxide solution 5 n","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_laurilsolfato_e487","entity_type":"inactive","canonical_it":"sodio laurilsolfato (e487)","canonical_en":"sodium lauryl sulfate (e487)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_laurilsolfato_e_silice_kollidon_sr","entity_type":"inactive","canonical_it":"sodio laurilsolfato e silice (kollidon sr)","canonical_en":"Sodium lauryl sulfate and silica (kollidon sr)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_metabisolfito_e223","entity_type":"inactive","canonical_it":"sodio metabisolfito (e223)","canonical_en":"Sodium metabisulfite (E223)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_oleato","entity_type":"inactive","canonical_it":"sodio oleato","canonical_en":"Sodium oleate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_propil_pidrossibenzoato","entity_type":"inactive","canonical_it":"sodio propil p-idrossibenzoato","canonical_en":"Sodium propyl p-hydroxybenzoate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_solfato","entity_type":"inactive","canonical_it":"sodio solfato","canonical_en":"Sodium sulfate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_solfato_anidro","entity_type":"inactive","canonical_it":"sodio solfato anidro","canonical_en":"Sodium sulfate anhydrous","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_stearilfumarato","entity_type":"inactive","canonical_it":"sodio stearilfumarato","canonical_en":"Sodium stearyl fumarate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sodio_sulfito_e221","entity_type":"inactive","canonical_it":"sodio sulfito (e221)","canonical_en":"sodium sulfite (e221)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:soluzione_acquosa_di_lidocaina_all1","entity_type":"inactive","canonical_it":"soluzione acquosa di lidocaina all’1%","canonical_en":"1% aqueous solution of lidocaine","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:soluzione_di_lidocaiana_cloridrato_0_5","entity_type":"inactive","canonical_it":"soluzione di lidocaiana cloridrato 0,5%","canonical_en":"Lidocaine hydrochloride solution 0.5%","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:soluzione_isotonica_di_sodio_cloruro","entity_type":"inactive","canonical_it":"soluzione isotonica di sodio cloruro","canonical_en":"Isotonic sodium chloride solution","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitan_monolaurato","entity_type":"inactive","canonical_it":"sorbitan monolaurato","canonical_en":"Sorbitan monolaurate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitan_monostearato","entity_type":"inactive","canonical_it":"sorbitan monostearato","canonical_en":"Sorbitan monostearate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitan_sesquioleato","entity_type":"inactive","canonical_it":"sorbitan sesquioleato","canonical_en":"Sorbitan sesquioleate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitolo_70","entity_type":"inactive","canonical_it":"sorbitolo 70%","canonical_en":"Sorbitol 70%","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitolo_e420","entity_type":"inactive","canonical_it":"sorbitolo (e420)","canonical_en":"sorbitol (e420)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sorbitolo_liquido_cristallizzabile_e420","entity_type":"inactive","canonical_it":"sorbitolo liquido (cristallizzabile) (e420)","canonical_en":"Liquid sorbitol (crystallizable) (e420)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:steareth21","entity_type":"inactive","canonical_it":"steareth-21","canonical_en":"steareth-21","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:stearoilmacrogolgliceridi","entity_type":"inactive","canonical_it":"stearoil-macrogolgliceridi","canonical_en":"stearoyl macrogolglycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:strato_adesivo","entity_type":"inactive","canonical_it":"strato adesivo","canonical_en":"Adhesive layer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:strato_adesivo_in_poliacrilato","entity_type":"inactive","canonical_it":"strato adesivo in poliacrilato","canonical_en":"Polyacrylate adhesive layer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:strato_adesivo_poliacrilico","entity_type":"inactive","canonical_it":"strato adesivo poliacrilico","canonical_en":"Polyacrylic adhesive layer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:strato_di_copertura","entity_type":"inactive","canonical_it":"strato di copertura","canonical_en":"Cover layer","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:sucralosio_e955","entity_type":"inactive","canonical_it":"sucralosio (e955)","canonical_en":"sucralose (e955)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:supporto_in_tessuto_non_tessuto_di_poliestere","entity_type":"inactive","canonical_it":"supporto in tessuto non tessuto di poliestere","canonical_en":"Non-woven polyester fabric support","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:talco_e553b","entity_type":"inactive","canonical_it":"talco (e553b)","canonical_en":"Talcum (E553b)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:tessuto_di_poli_etilentereftalato","entity_type":"inactive","canonical_it":"tessuto di poli(etilentereftalato)","canonical_en":"poly(ethylene terephthalate) fabric","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:there_are_no_inactive_ingredients_listed_for_the_pharmaceutical_form_preparazione_iniettabile_of_the_drug_pentrexyl_in_the_provided_composition","entity_type":"inactive","canonical_it":"there are no inactive ingredients listed for the pharmaceutical form \"preparazione iniettabile\" of the drug pentrexyl in the provided composition.","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:timolo","entity_type":"inactive","canonical_it":"timolo","canonical_en":"timolo","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:triacetina_e1518","entity_type":"inactive","canonical_it":"triacetina (e1518)","canonical_en":"Triacetin (E1518)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:triacetina_ferro_ossido_rosso_e172","entity_type":"inactive","canonical_it":"triacetina ferro ossido rosso (e172)","canonical_en":"Triacetin red iron oxide (E172)","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:trietilcitrato","entity_type":"inactive","canonical_it":"trietilcitrato","canonical_en":"Triethyl citrate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:trigliceridi_a_catena_media","entity_type":"inactive","canonical_it":"trigliceridi a catena media","canonical_en":"Medium-chain triglycerides","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:trometamolo","entity_type":"inactive","canonical_it":"trometamolo","canonical_en":"trometamol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:trometamolo_36_mg","entity_type":"inactive","canonical_it":"trometamolo 36 mg","canonical_en":"trometamolo 36 mg","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:vanillina","entity_type":"inactive","canonical_it":"vanillina","canonical_en":"Vanillin","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:vaselina","entity_type":"inactive","canonical_it":"vaselina","canonical_en":"Vaseline","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:vedere_par_2","entity_type":"inactive","canonical_it":"vedere par. 2","canonical_en":"see par. 2","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:xilitolo","entity_type":"inactive","canonical_it":"xilitolo","canonical_en":"Xylitol","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:z_ottadec9en1il_oleato","entity_type":"inactive","canonical_it":"[(z)-ottadec-9-en-1-il] oleato","canonical_en":"[(z)-octadec-9-en-1-yl] oleate","sources":["UMLS"],"metadata":{}}
+{"concept_id":"inactive:zinco_ossido","entity_type":"inactive","canonical_it":"zinco ossido","canonical_en":"Zinc oxide","sources":["UMLS"],"metadata":{}}
