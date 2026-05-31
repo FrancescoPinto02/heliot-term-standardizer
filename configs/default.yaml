@@ -10,7 +10,7 @@ paths:
 
 standardization:
   output_language: en
-  note_output_policy: annotate
+  note_output_policy: replace
 
 knowledge_base:
   include_active_ingredients: true
@@ -41,6 +41,18 @@ matcher:
   deterministic:
     type: aho_corasick
     enabled: true
+    include_unsafe_aliases: false
+
+resolution:
+  prefer_longest_match: true
+  target_type_priority:
+    - drug_product
+    - drug_brand
+    - ingredient
+
+indexes:
+  persist: false
+  path: data/indexes/aho_corasick.pkl
 
 fallbacks:
   fuzzy:
