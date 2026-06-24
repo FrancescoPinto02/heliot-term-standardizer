@@ -1,22 +1,16 @@
 """Build the processed terminology knowledge base."""
 
-from pathlib import Path
-
-import yaml
-
+from heliot_terms.config import load_config
 from heliot_terms.resources.dictionary_builder import KnowledgeBaseBuilder
 from heliot_terms.resources.loaders import load_drugs_csv, load_synonyms_json
 
 
 def main() -> None:
-    config_path = Path("configs/default.yaml")
+    config = load_config("configs/default.yaml")
 
-    with config_path.open("r", encoding="utf-8") as file:
-        config = yaml.safe_load(file)
-
-    raw_drugs_csv = config["paths"]["raw_drugs_csv"]
-    raw_synonyms_json = config["paths"]["raw_synonyms_json"]
-    processed_dir = config["paths"]["processed_dir"]
+    raw_drugs_csv = config.paths.raw_drugs_csv
+    raw_synonyms_json = config.paths.raw_synonyms_json
+    processed_dir = config.paths.processed_dir
 
     synonym_entries = load_synonyms_json(raw_synonyms_json)
     drug_records = load_drugs_csv(raw_drugs_csv)

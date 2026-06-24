@@ -1,19 +1,12 @@
 from __future__ import annotations
 
-from pathlib import Path
-
-import yaml
-
-from heliot_terms.pipeline.factory import build_standardization_pipeline
+from heliot_terms.config import load_config
+from heliot_terms.pipeline.builder import build_pipeline
 
 
 def main() -> None:
-    config_path = Path("configs/default.yaml")
-
-    with config_path.open("r", encoding="utf-8") as file:
-        config = yaml.safe_load(file)
-
-    pipeline = build_standardization_pipeline(config)
+    config = load_config("configs/default.yaml")
+    pipeline = build_pipeline(config)
 
     examples = [
         "Il paziente ha presentato una reazione allergica ad acetaminofene.",

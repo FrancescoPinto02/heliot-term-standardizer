@@ -1,30 +1,34 @@
-from pathlib import Path
-
-import yaml
-
-from heliot_terms.matching.factory import build_matcher
+from heliot_terms.config import load_config
+from heliot_terms.domain.enums import TargetType
+from heliot_terms.matching.aho_corasick_matcher import AhoCorasickMatcher
+from heliot_terms.resolution.overlap_resolver import OverlapResolver, OverlapResolverConfig
 from heliot_terms.normalization.text_normalizer import TextNormalizer
-from heliot_terms.resolution.factory import build_overlap_resolver
 from heliot_terms.resources.processed_loaders import load_aliases
 
 
 def main() -> None:
-    config_path = Path("configs/default.yaml")
-    with config_path.open("r", encoding="utf-8") as file:
-        config = yaml.safe_load(file)
+    config = load_config("configs/default.yaml")
 
-    processed_dir = Path(config["paths"]["processed_dir"])
-    matcher_type = config["matcher"]["deterministic"]["type"]
-
+    processed_dir = config.paths.processed_dir
     aliases = load_aliases(processed_dir / "aliases.jsonl")
 
-    matcher = build_matcher(
-        matcher_type=matcher_type,
+    matcher = AhoCorasickMatcher.from_aliases(
         aliases=aliases,
-        include_unsafe=False,
+        include_unsafe=config.matcher.deterministic.include_unsafe_aliases,
     )
 
-    resolver = build_overlap_resolver(config)
+    priority_names = config.resolution.target_type_priority
+    target_type_priority = {
+        TargetType(name): len(priority_names) - index
+        for index, name in enumerate(priority_names)
+    }
+
+    resolver = OverlapResolver(
+        OverlapResolverConfig(
+            prefer_longest_match=config.resolution.prefer_longest_match,
+            target_type_priority=target_type_priority,
+        )
+    )
 
     normalizer = TextNormalizer()
 
