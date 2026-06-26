@@ -115,6 +115,37 @@ class FallbackConfig(ConfigModel):
     enabled: bool = False
 
 
+class FuzzyFallbackConfig(ConfigModel):
+    """SymSpell fuzzy fallback configuration."""
+
+    enabled: bool = False
+    type: str = "symspell"
+
+    target_types: list[str] = Field(default_factory=lambda: ["ingredient"])
+
+    max_ngram_tokens: int = 4
+    min_token_chars: int = 3
+    min_candidate_chars: int = 6
+
+    max_dictionary_edit_distance: int = 2
+    prefix_length: int = 7
+    max_lookup_edit_distance: int = 2
+
+    max_suggestions: int = 5
+    ambiguity_margin: float = 0.05
+
+    short_max_chars: int = 8
+    medium_max_chars: int = 14
+    min_score_short: float = 0.95
+    min_score_medium: float = 0.90
+    min_score_long: float = 0.86
+
+    allowed_policy_reasons: list[str] = Field(
+        default_factory=lambda: ["clinical_alias"]
+    )
+    extra_stopwords: list[str] = Field(default_factory=list)
+
+
 class FallbacksConfig(ConfigModel):
     """Fallback layer configuration.
 
@@ -123,7 +154,7 @@ class FallbacksConfig(ConfigModel):
     structure.
     """
 
-    fuzzy: FallbackConfig = Field(default_factory=FallbackConfig)
+    fuzzy: FuzzyFallbackConfig = Field(default_factory=FuzzyFallbackConfig)
     embeddings: FallbackConfig = Field(default_factory=FallbackConfig)
     llm: FallbackConfig = Field(default_factory=FallbackConfig)
 

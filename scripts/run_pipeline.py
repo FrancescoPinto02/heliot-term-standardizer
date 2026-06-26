@@ -10,13 +10,15 @@ def main() -> None:
 
     examples = [
         "Il paziente ha presentato una reazione allergica ad acetaminofene.",
+        "Il paziente ha presentato una reazione allergica ad acetaminofne.",
         "Paziente allergico alla Brumixol.",
         "Rash dopo assunzione di TRANSENE. Intolleranza a Methoxypropiocin documentata.",
         "Intolleranza a F D & C #3.",
         "Allergia al sale di sodio dell'acido carbonico.",
         "Tolleranza ad Actiq",
         "Tolleranza ad actiq 15pastl mucosa os 200mcg",
-        "Il paziente non tollera macrogol 3350.",
+        "Il paziente non tollera lisinopril didrato e macrogol 3350. Tolleranza ad aspirina documentata.",
+        "Il paziente non tollera macrogl 3350.",
     ]
 
     for example in examples:

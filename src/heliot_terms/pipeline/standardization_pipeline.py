@@ -16,6 +16,7 @@ from heliot_terms.pipeline.models import (
 from heliot_terms.resolution.models import ResolvedMatch
 from heliot_terms.resources.knowledge_base_repository import KnowledgeBaseRepository
 from heliot_terms.resolution.overlap_resolver import OverlapResolver
+from heliot_terms.fallback.base import BaseFallbackMatcher
 
 
 @dataclass(frozen=True)
@@ -39,19 +40,34 @@ class StandardizationPipeline:
         resolver: OverlapResolver,
         normalizer: TextNormalizer | None = None,
         config: StandardizationPipelineConfig | None = None,
+        fallback_matchers: list[BaseFallbackMatcher] | None = None,
     ) -> None:
         self.repository = repository
         self.matcher = matcher
         self.resolver = resolver
         self.normalizer = normalizer or TextNormalizer()
         self.config = config or StandardizationPipelineConfig()
+        self.fallback_matchers = fallback_matchers or []
 
     def standardize(self, text: str) -> StandardizationResult:
         """Extract and standardize terminology mentions from a clinical note."""
         normalized = self.normalizer.normalize_with_mapping(text)
 
-        candidates = self.matcher.match(normalized.text)
-        resolved_matches = self.resolver.resolve(candidates)
+        exact_candidates = self.matcher.match(normalized.text)
+        exact_resolved_matches = self.resolver.resolve(exact_candidates)
+
+        protected_spans = [(match.start, match.end) for match in exact_resolved_matches]
+
+        fallback_candidates = self._run_fallback_matchers(
+            text=normalized.text,
+            protected_spans=protected_spans,
+        )
+        fallback_resolved_matches = self.resolver.resolve(fallback_candidates)
+
+        resolved_matches = self._merge_exact_and_fallback_matches(
+            exact_matches=exact_resolved_matches,
+            fallback_matches=fallback_resolved_matches,
+        )
 
         mentions: list[StandardizedMention] = []
         ambiguous: list[StandardizedMention] = []
@@ -79,7 +95,10 @@ class StandardizationPipeline:
             matches=mentions,
             ambiguous=ambiguous,
             metadata={
-                "num_candidates": len(candidates),
+                "num_exact_candidates": len(exact_candidates),
+                "num_exact_resolved_matches": len(exact_resolved_matches),
+                "num_fallback_candidates": len(fallback_candidates),
+                "num_fallback_resolved_matches": len(fallback_resolved_matches),
                 "num_resolved_matches": len(resolved_matches),
                 "num_matches": len(mentions),
                 "num_ambiguous": len(ambiguous),
@@ -366,3 +385,52 @@ class StandardizationPipeline:
             "normalized_start": match.start,
             "normalized_end": match.end,
         }
+
+    def _run_fallback_matchers(
+        self,
+        text: str,
+        protected_spans: list[tuple[int, int]],
+    ) -> list:
+        """Run configured fallback matchers on unprotected text spans."""
+        fallback_candidates = []
+
+        for fallback_matcher in self.fallback_matchers:
+            fallback_candidates.extend(
+                fallback_matcher.match(
+                    text=text,
+                    protected_spans=protected_spans,
+                )
+            )
+
+        return fallback_candidates
+
+    def _merge_exact_and_fallback_matches(
+        self,
+        exact_matches: list[ResolvedMatch],
+        fallback_matches: list[ResolvedMatch],
+    ) -> list[ResolvedMatch]:
+        """Merge exact and fallback matches, giving exact matches priority."""
+        selected = list(exact_matches)
+
+        for fallback_match in fallback_matches:
+            if self._overlaps_any_resolved(fallback_match, selected):
+                continue
+            selected.append(fallback_match)
+
+        return sorted(selected, key=lambda item: (item.start, item.end))
+
+    def _overlaps_any_resolved(
+        self,
+        match: ResolvedMatch,
+        selected: list[ResolvedMatch],
+    ) -> bool:
+        """Return True if a resolved match overlaps any selected match."""
+        return any(self._resolved_spans_overlap(match, other) for other in selected)
+
+    def _resolved_spans_overlap(
+        self,
+        left: ResolvedMatch,
+        right: ResolvedMatch,
+    ) -> bool:
+        """Return True if two resolved spans overlap."""
+        return left.start < right.end and right.start < left.end
