@@ -19,7 +19,7 @@ class FuzzyTextCandidate:
 
 @dataclass(frozen=True)
 class FuzzyScoredSuggestion:
-    """SymSpell suggestion enriched with alias metadata and score."""
+    """Fuzzy suggestion enriched with alias metadata and score."""
 
     candidate: FuzzyTextCandidate
     alias: Alias
@@ -27,6 +27,7 @@ class FuzzyScoredSuggestion:
     dictionary_key: str
     edit_distance: int
     score: float
+    metadata: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)

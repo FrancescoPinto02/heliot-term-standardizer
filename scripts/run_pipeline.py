@@ -19,6 +19,7 @@ def main() -> None:
         "Tolleranza ad actiq 15pastl mucosa os 200mcg",
         "Il paziente non tollera lisinopril didrato e macrogol 3350. Tolleranza ad aspirina documentata.",
         "Il paziente non tollera macrogl 3350.",
+
     ]
 
     for example in examples:

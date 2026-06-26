@@ -57,30 +57,9 @@ indexes:
 fallbacks:
   fuzzy:
     enabled: true
-    type: symspell
-
-    target_types:
-      - ingredient
-
-    max_ngram_tokens: 4
-    min_token_chars: 3
-    min_candidate_chars: 6
-
-    max_dictionary_edit_distance: 2
-    prefix_length: 7
-    max_lookup_edit_distance: 2
-
-    max_suggestions: 5
-    ambiguity_margin: 0.05
-
-    short_max_chars: 8
-    medium_max_chars: 14
-    min_score_short: 0.95
-    min_score_medium: 0.90
-    min_score_long: 0.86
-
-    allowed_policy_reasons:
-      - clinical_alias
+    strategies:
+      - symspell
+      - ngram_rapidfuzz
 
   embeddings:
     enabled: false

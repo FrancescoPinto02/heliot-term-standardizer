@@ -2,8 +2,8 @@
 
 from heliot_terms.domain.enums import AliasCategory, AliasLanguage, AliasSource, TargetType
 from heliot_terms.domain.models import Alias
-from heliot_terms.fallback.acceptance import FuzzyAcceptanceConfig, FuzzyAcceptancePolicy
-from heliot_terms.fallback.models import FuzzyScoredSuggestion, FuzzyTextCandidate
+from heliot_terms.fallback.fuzzy.acceptance import FuzzyAcceptanceConfig, FuzzyAcceptancePolicy
+from heliot_terms.fallback.fuzzy.models import FuzzyScoredSuggestion, FuzzyTextCandidate
 
 
 def _alias(

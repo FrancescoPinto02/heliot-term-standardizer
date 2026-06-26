@@ -1,6 +1,6 @@
 """Unit tests for fuzzy candidate extraction."""
 
-from heliot_terms.fallback.candidate_extractor import (
+from heliot_terms.fallback.fuzzy.candidate_extractor import (
     CandidateExtractorConfig,
     ResidualCandidateExtractor,
 )
@@ -60,3 +60,21 @@ def test_candidate_extractor_filters_stopword_only_candidates() -> None:
     candidates = extractor.extract(text=text, protected_spans=[])
 
     assert candidates == []
+
+
+def test_candidate_extractor_trims_boundary_stopwords() -> None:
+    extractor = ResidualCandidateExtractor(
+        CandidateExtractorConfig(
+            max_ngram_tokens=4,
+            min_token_chars=3,
+            min_candidate_chars=6,
+        )
+    )
+
+    text = "il paziente non tollera lisinopril didrato e macrogol"
+
+    candidates = extractor.extract(text=text, protected_spans=[])
+    candidate_texts = {candidate.text for candidate in candidates}
+
+    assert "lisinopril didrato" in candidate_texts
+    assert "lisinopril didrato e" not in candidate_texts

@@ -10,7 +10,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from heliot_terms.fallback.models import FuzzyTextCandidate
+from heliot_terms.fallback.fuzzy.models import FuzzyTextCandidate
 
 
 _TOKEN_RE = re.compile(
@@ -88,6 +88,7 @@ _DEFAULT_STOPWORDS = frozenset(
     }
 )
 
+DEFAULT_STOPWORDS = _DEFAULT_STOPWORDS
 
 @dataclass(frozen=True)
 class CandidateExtractorConfig:
@@ -192,6 +193,11 @@ class ResidualCandidateExtractor:
         if not tokens:
             return None
 
+        tokens = self._trim_boundary_stopwords(tokens)
+
+        if not tokens:
+            return None
+
         start = tokens[0][1]
         end = tokens[-1][2]
         candidate_text = text[start:end].strip()
@@ -257,3 +263,18 @@ class ResidualCandidateExtractor:
             deduplicated.append(candidate)
 
         return deduplicated
+
+    def _trim_boundary_stopwords(
+        self,
+        tokens: list[tuple[str, int, int]],
+    ) -> list[tuple[str, int, int]]:
+        """Trim stopwords at candidate boundaries. """
+        trimmed = list(tokens)
+
+        while trimmed and trimmed[0][0] in self.config.stopwords:
+            trimmed.pop(0)
+
+        while trimmed and trimmed[-1][0] in self.config.stopwords:
+            trimmed.pop()
+
+        return trimmed

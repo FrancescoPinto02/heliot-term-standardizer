@@ -9,34 +9,75 @@ from symspellpy import SymSpell, Verbosity
 
 from heliot_terms.domain.enums import AliasCategory, TargetType
 from heliot_terms.domain.models import Alias
-from heliot_terms.fallback.acceptance import (
+from heliot_terms.fallback.fuzzy.acceptance import (
     FuzzyAcceptanceConfig,
     FuzzyAcceptancePolicy,
 )
 from heliot_terms.fallback.base import BaseFallbackMatcher
-from heliot_terms.fallback.candidate_extractor import (
+from heliot_terms.fallback.fuzzy.candidate_extractor import (
     CandidateExtractorConfig,
     ResidualCandidateExtractor,
 )
-from heliot_terms.fallback.models import FuzzyScoredSuggestion, FuzzyTextCandidate
+from heliot_terms.fallback.fuzzy.models import FuzzyScoredSuggestion, FuzzyTextCandidate
 from heliot_terms.matching.models import MatchCandidate
+
+
+# Candidate extraction.
+MAX_NGRAM_TOKENS = 4
+MIN_TOKEN_CHARS = 3
+MIN_CANDIDATE_CHARS = 6
+
+# SymSpell index and lookup.
+MAX_DICTIONARY_EDIT_DISTANCE = 2
+PREFIX_LENGTH = 7
+MAX_LOOKUP_EDIT_DISTANCE = 2
+
+# Acceptance.
+MAX_SUGGESTIONS = 5
+AMBIGUITY_MARGIN = 0.05
+SHORT_MAX_CHARS = 8
+MEDIUM_MAX_CHARS = 14
+MIN_SCORE_SHORT = 0.95
+MIN_SCORE_MEDIUM = 0.90
+MIN_SCORE_LONG = 0.86
+
+# Alias indexing.
+ALLOWED_POLICY_REASONS = frozenset({"clinical_alias"})
+TARGET_TYPES = frozenset({TargetType.INGREDIENT})
 
 
 @dataclass(frozen=True)
 class SymSpellFuzzyMatcherConfig:
-    """Configuration for the SymSpell fuzzy matcher."""
+    """Configuration for the SymSpell fuzzy matcher.
 
-    max_dictionary_edit_distance: int = 2
-    prefix_length: int = 7
-    max_lookup_edit_distance: int = 2
+    Defaults are intentionally defined in code to keep YAML configuration small.
+    """
 
-    target_types: tuple[TargetType, ...] = (TargetType.INGREDIENT,)
-    allowed_policy_reasons: tuple[str, ...] = ("clinical_alias",)
+    max_dictionary_edit_distance: int = MAX_DICTIONARY_EDIT_DISTANCE
+    prefix_length: int = PREFIX_LENGTH
+    max_lookup_edit_distance: int = MAX_LOOKUP_EDIT_DISTANCE
+
+    target_types: tuple[TargetType, ...] = tuple(TARGET_TYPES)
+    allowed_policy_reasons: tuple[str, ...] = tuple(ALLOWED_POLICY_REASONS)
 
     candidate_extractor: CandidateExtractorConfig = field(
-        default_factory=CandidateExtractorConfig
+        default_factory=lambda: CandidateExtractorConfig(
+            max_ngram_tokens=MAX_NGRAM_TOKENS,
+            min_token_chars=MIN_TOKEN_CHARS,
+            min_candidate_chars=MIN_CANDIDATE_CHARS,
+        )
     )
-    acceptance: FuzzyAcceptanceConfig = field(default_factory=FuzzyAcceptanceConfig)
+    acceptance: FuzzyAcceptanceConfig = field(
+        default_factory=lambda: FuzzyAcceptanceConfig(
+            max_suggestions=MAX_SUGGESTIONS,
+            ambiguity_margin=AMBIGUITY_MARGIN,
+            short_max_chars=SHORT_MAX_CHARS,
+            medium_max_chars=MEDIUM_MAX_CHARS,
+            min_score_short=MIN_SCORE_SHORT,
+            min_score_medium=MIN_SCORE_MEDIUM,
+            min_score_long=MIN_SCORE_LONG,
+        )
+    )
 
 
 class SymSpellFuzzyMatcher(BaseFallbackMatcher):

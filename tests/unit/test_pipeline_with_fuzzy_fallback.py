@@ -8,9 +8,9 @@ from heliot_terms.domain.enums import (
     TargetType,
 )
 from heliot_terms.domain.models import Alias, IngredientConcept
-from heliot_terms.fallback.acceptance import FuzzyAcceptanceConfig
-from heliot_terms.fallback.candidate_extractor import CandidateExtractorConfig
-from heliot_terms.fallback.symspell_fuzzy_matcher import (
+from heliot_terms.fallback.fuzzy.acceptance import FuzzyAcceptanceConfig
+from heliot_terms.fallback.fuzzy.candidate_extractor import CandidateExtractorConfig
+from heliot_terms.fallback.fuzzy.symspell_matcher import (
     SymSpellFuzzyMatcher,
     SymSpellFuzzyMatcherConfig,
 )

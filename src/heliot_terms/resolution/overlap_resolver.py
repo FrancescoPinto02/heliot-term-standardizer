@@ -59,14 +59,15 @@ class OverlapResolver:
 
         return [self._to_resolved_match(candidate) for candidate in selected]
 
-    def _ranking_key(self, candidate: MatchCandidate) -> tuple[int, int, int, int]:
+    def _ranking_key(self, candidate: MatchCandidate) -> tuple[int, int, float, int, int]:
         """Return sorting key used to rank candidates.
 
         Order:
         1. longer match
         2. target type priority
-        3. alias priority
-        4. earlier start position
+        3. confidence
+        4. alias priority
+        5. earlier start position
         """
         length_score = candidate.end - candidate.start if self.config.prefer_longest_match else 0
         type_score = self.target_type_priority.get(candidate.target_type, 0)
@@ -77,6 +78,7 @@ class OverlapResolver:
         return (
             length_score,
             type_score,
+            candidate.confidence,
             candidate.priority,
             earlier_position_score,
         )

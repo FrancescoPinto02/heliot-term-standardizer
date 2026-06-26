@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from heliot_terms.fallback.models import (
+from heliot_terms.fallback.fuzzy.models import (
     FuzzyAcceptanceDecision,
     FuzzyScoredSuggestion,
 )
