@@ -110,6 +110,20 @@ files = [
 ]
 
 [[package]]
+name = "hnswlib"
+version = "0.8.0"
+description = "hnswlib"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "hnswlib-0.8.0.tar.gz", hash = "sha256:cb6d037eedebb34a7134e7dc78966441dfd04c9cf5ee93911be911ced951c44c"},
+]
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "iniconfig"
 version = "2.3.0"
 description = "brain-dead simple config-ini parsing"
@@ -1069,4 +1083,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "37bf04d70b02ffe6811c6b5143e009b04eaef0d24f91612be41c69396671c6ad"
+content-hash = "e16bdb55692e0c17ec2e303d7c0866c69a4bd9b4ba431a32793477f683be0097"

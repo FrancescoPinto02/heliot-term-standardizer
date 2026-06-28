@@ -62,7 +62,7 @@ fallbacks:
       - ngram_rapidfuzz
 
   embeddings:
-    enabled: false
+    enabled: true
 
   llm:
     enabled: false

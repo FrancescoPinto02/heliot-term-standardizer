@@ -31,8 +31,11 @@ class IndexedAlias:
 class AhoCorasickMatcher(BaseMatcher):
     """Exact matcher backed by a pyahocorasick automaton."""
 
-    def __init__(self, automaton: ahocorasick.Automaton) -> None:
+    def __init__(
+        self, automaton: ahocorasick.Automaton, is_empty: bool = False
+    ) -> None:
         self._automaton = automaton
+        self._is_empty = is_empty
 
     @classmethod
     def from_aliases(
@@ -81,11 +84,17 @@ class AhoCorasickMatcher(BaseMatcher):
             else:
                 automaton.add_word(alias.alias_normalized, [indexed_alias])
 
+        if len(automaton) == 0:
+            return cls(automaton=automaton, is_empty=True)
+
         automaton.make_automaton()
-        return cls(automaton)
+        return cls(automaton=automaton, is_empty=False)
 
     def match(self, text: str) -> list[MatchCandidate]:
         """Return exact match candidates found in normalized text."""
+        if self._is_empty:
+            return []
+
         matches: list[MatchCandidate] = []
 
         for end_index, indexed_aliases in self._automaton.iter(text):

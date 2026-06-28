@@ -41,6 +41,7 @@ class StandardizationPipeline:
         normalizer: TextNormalizer | None = None,
         config: StandardizationPipelineConfig | None = None,
         fallback_matchers: list[BaseFallbackMatcher] | None = None,
+        semantic_fallback_matchers: list[BaseFallbackMatcher] | None = None,
     ) -> None:
         self.repository = repository
         self.matcher = matcher
@@ -48,6 +49,7 @@ class StandardizationPipeline:
         self.normalizer = normalizer or TextNormalizer()
         self.config = config or StandardizationPipelineConfig()
         self.fallback_matchers = fallback_matchers or []
+        self.semantic_fallback_matchers = semantic_fallback_matchers or []
 
     def standardize(self, text: str) -> StandardizationResult:
         """Extract and standardize terminology mentions from a clinical note."""
@@ -67,6 +69,21 @@ class StandardizationPipeline:
         resolved_matches = self._merge_exact_and_fallback_matches(
             exact_matches=exact_resolved_matches,
             fallback_matches=fallback_resolved_matches,
+        )
+
+        semantic_protected_spans = [
+            (match.start, match.end) for match in resolved_matches
+        ]
+
+        semantic_candidates = self._run_semantic_fallback_matchers(
+            text=normalized.text,
+            protected_spans=semantic_protected_spans,
+        )
+        semantic_resolved_matches = self.resolver.resolve(semantic_candidates)
+
+        resolved_matches = self._merge_exact_and_fallback_matches(
+            exact_matches=resolved_matches,
+            fallback_matches=semantic_resolved_matches,
         )
 
         mentions: list[StandardizedMention] = []
@@ -102,6 +119,8 @@ class StandardizationPipeline:
                 "num_resolved_matches": len(resolved_matches),
                 "num_matches": len(mentions),
                 "num_ambiguous": len(ambiguous),
+                "num_semantic_candidates": len(semantic_candidates),
+                "num_semantic_resolved_matches": len(semantic_resolved_matches),
             },
         )
 
@@ -434,3 +453,21 @@ class StandardizationPipeline:
     ) -> bool:
         """Return True if two resolved spans overlap."""
         return left.start < right.end and right.start < left.end
+
+    def _run_semantic_fallback_matchers(
+        self,
+        text: str,
+        protected_spans: list[tuple[int, int]],
+    ) -> list:
+        """Run configured semantic fallback matchers on unresolved text spans."""
+        semantic_candidates = []
+
+        for fallback_matcher in self.semantic_fallback_matchers:
+            semantic_candidates.extend(
+                fallback_matcher.match(
+                    text=text,
+                    protected_spans=protected_spans,
+                )
+            )
+
+        return semantic_candidates

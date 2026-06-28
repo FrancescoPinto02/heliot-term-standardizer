@@ -1,4 +1,5 @@
 from __future__ import annotations
+from pathlib import Path
 
 from heliot_terms.config import AppConfig
 from heliot_terms.domain.enums import TargetType
@@ -15,6 +16,7 @@ from heliot_terms.fallback.fuzzy.composite_matcher import (
     CompositeFuzzyMatcher,
     FuzzyFallbackConfig,
 )
+from heliot_terms.fallback.semantic.semantic_matcher import SemanticEmbeddingMatcher
 
 
 def build_pipeline(config: AppConfig) -> StandardizationPipeline:
@@ -24,6 +26,7 @@ def build_pipeline(config: AppConfig) -> StandardizationPipeline:
     matcher = _build_exact_matcher(config, repository)
     resolver = _build_overlap_resolver(config)
     fallback_matchers = _build_fallback_matchers(config, repository)
+    semantic_fallback_matchers = _build_semantic_fallback_matchers(config)
 
     pipeline_config = StandardizationPipelineConfig(
         output_language=config.standardization.output_language,
@@ -41,6 +44,7 @@ def build_pipeline(config: AppConfig) -> StandardizationPipeline:
         normalizer=TextNormalizer(),
         config=pipeline_config,
         fallback_matchers=fallback_matchers,
+        semantic_fallback_matchers=semantic_fallback_matchers,
     )
 
 
@@ -106,6 +110,21 @@ def _build_fallback_matchers(
                     strategies=tuple(config.fallbacks.fuzzy.strategies),
                 ),
             )
+        )
+
+    return fallback_matchers
+
+
+def _build_semantic_fallback_matchers(
+    config: AppConfig,
+) -> list[BaseFallbackMatcher]:
+    """Build optional semantic fallback matchers from configuration."""
+    fallback_matchers: list[BaseFallbackMatcher] = []
+
+    if config.fallbacks.embeddings.enabled:
+        semantic_index_dir = Path(config.paths.indexes_dir) / "semantic"
+        fallback_matchers.append(
+            SemanticEmbeddingMatcher.from_index_dir(semantic_index_dir)
         )
 
     return fallback_matchers
