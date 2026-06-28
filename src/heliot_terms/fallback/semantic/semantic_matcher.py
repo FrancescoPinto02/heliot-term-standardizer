@@ -15,10 +15,10 @@ from heliot_terms.fallback.semantic.ner_candidate_extractor import (
     NerSemanticCandidateExtractor,
 )
 from heliot_terms.matching.models import MatchCandidate
-
+from heliot_terms.runtime.cache import LruCache
 
 SEMANTIC_MATCH_PRIORITY = 55
-
+SEMANTIC_DECISION_CACHE_SIZE = 10_000
 
 class SemanticEmbeddingMatcher(BaseFallbackMatcher):
     """NER + embedding nearest-neighbor fallback matcher."""
@@ -34,6 +34,9 @@ class SemanticEmbeddingMatcher(BaseFallbackMatcher):
         self.index = index
         self.candidate_extractor = candidate_extractor or NerSemanticCandidateExtractor()
         self.acceptance_policy = acceptance_policy or SemanticAcceptancePolicy()
+        self._decision_cache: LruCache[str, SemanticAcceptanceDecision] = LruCache(
+            max_size=SEMANTIC_DECISION_CACHE_SIZE
+        )
 
     @classmethod
     def from_index_dir(
@@ -63,13 +66,42 @@ class SemanticEmbeddingMatcher(BaseFallbackMatcher):
         if not candidates:
             return []
 
-        vectors = self.encoder.encode([candidate.text for candidate in candidates])
+        decisions_by_index: dict[int, SemanticAcceptanceDecision] = {}
+        uncached_candidates: list[tuple[int, SemanticTextCandidate]] = []
+
+        for index, candidate in enumerate(candidates):
+            cache_key = _semantic_cache_key(candidate.text)
+            cached_decision = self._decision_cache.get(cache_key)
+
+            if cached_decision is not None:
+                decisions_by_index[index] = cached_decision
+            else:
+                uncached_candidates.append((index, candidate))
+
+        if uncached_candidates:
+            vectors = self.encoder.encode(
+                [candidate.text for _, candidate in uncached_candidates]
+            )
+
+            for (index, candidate), vector in zip(
+                uncached_candidates,
+                vectors,
+                strict=True,
+            ):
+                search_results = self.index.search(vector, top_k=TOP_K)
+                decision = self.acceptance_policy.decide(search_results)
+
+                self._decision_cache.set(
+                    _semantic_cache_key(candidate.text),
+                    decision,
+                )
+
+                decisions_by_index[index] = decision
 
         matches: list[MatchCandidate] = []
 
-        for candidate, vector in zip(candidates, vectors, strict=True):
-            search_results = self.index.search(vector, top_k=TOP_K)
-            decision = self.acceptance_policy.decide(search_results)
+        for index, candidate in enumerate(candidates):
+            decision = decisions_by_index[index]
 
             if not decision.accepted or decision.accepted_result is None:
                 continue
@@ -129,3 +161,8 @@ class SemanticEmbeddingMatcher(BaseFallbackMatcher):
                 ],
             },
         )
+
+
+def _semantic_cache_key(text: str) -> str:
+    """Return a stable cache key for a semantic candidate."""
+    return " ".join(text.lower().strip().split())

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from symspellpy import SymSpell, Verbosity
 
@@ -18,8 +18,13 @@ from heliot_terms.fallback.fuzzy.candidate_extractor import (
     CandidateExtractorConfig,
     ResidualCandidateExtractor,
 )
-from heliot_terms.fallback.fuzzy.models import FuzzyScoredSuggestion, FuzzyTextCandidate
+from heliot_terms.fallback.fuzzy.models import (
+    FuzzyAcceptanceDecision,
+    FuzzyScoredSuggestion,
+    FuzzyTextCandidate,
+)
 from heliot_terms.matching.models import MatchCandidate
+from heliot_terms.runtime.cache import LruCache
 
 
 # Candidate extraction.
@@ -31,6 +36,7 @@ MIN_CANDIDATE_CHARS = 6
 MAX_DICTIONARY_EDIT_DISTANCE = 2
 PREFIX_LENGTH = 7
 MAX_LOOKUP_EDIT_DISTANCE = 2
+LOOKUP_CACHE_SIZE = 10_000
 
 # Acceptance.
 MAX_SUGGESTIONS = 5
@@ -106,6 +112,9 @@ class SymSpellFuzzyMatcher(BaseFallbackMatcher):
         self.acceptance_policy = acceptance_policy or FuzzyAcceptancePolicy(
             self.config.acceptance
         )
+        self._decision_cache: LruCache[str, FuzzyAcceptanceDecision] = LruCache(
+            max_size=LOOKUP_CACHE_SIZE
+        )
 
     @classmethod
     def from_aliases(
@@ -158,8 +167,7 @@ class SymSpellFuzzyMatcher(BaseFallbackMatcher):
         matches: list[MatchCandidate] = []
 
         for text_candidate in text_candidates:
-            scored_suggestions = self._lookup_candidate(text_candidate)
-            decision = self.acceptance_policy.decide(scored_suggestions)
+            decision = self._cached_decision_for_candidate(text_candidate)
 
             if not decision.accepted or decision.accepted_suggestion is None:
                 continue
@@ -173,6 +181,54 @@ class SymSpellFuzzyMatcher(BaseFallbackMatcher):
             )
 
         return matches
+
+    def _cached_decision_for_candidate(
+        self,
+        candidate: FuzzyTextCandidate,
+    ) -> FuzzyAcceptanceDecision:
+        """Return cached or newly computed acceptance decision for a candidate.
+
+        Cached decisions are rebuilt with the current candidate span so offsets
+        remain correct across different notes.
+        """
+        cache_key = _to_dictionary_key(candidate.text)
+
+        cached_decision = self._decision_cache.get(cache_key)
+        if cached_decision is not None:
+            return self._decision_with_candidate(
+                decision=cached_decision,
+                candidate=candidate,
+            )
+
+        scored_suggestions = self._lookup_candidate(candidate)
+        decision = self.acceptance_policy.decide(scored_suggestions)
+
+        self._decision_cache.set(cache_key, decision)
+
+        return decision
+
+    def _decision_with_candidate(
+        self,
+        decision: FuzzyAcceptanceDecision,
+        candidate: FuzzyTextCandidate,
+    ) -> FuzzyAcceptanceDecision:
+        """Return a cached decision rebound to the current candidate span."""
+        accepted_suggestion = (
+            replace(decision.accepted_suggestion, candidate=candidate)
+            if decision.accepted_suggestion is not None
+            else None
+        )
+
+        top_suggestions = [
+            replace(suggestion, candidate=candidate)
+            for suggestion in decision.top_suggestions
+        ]
+
+        return FuzzyAcceptanceDecision(
+            accepted_suggestion=accepted_suggestion,
+            reason=decision.reason,
+            top_suggestions=top_suggestions,
+        )
 
     def _lookup_candidate(
         self,

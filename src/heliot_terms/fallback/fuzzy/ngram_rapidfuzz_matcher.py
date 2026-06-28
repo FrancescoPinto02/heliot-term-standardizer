@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 from rapidfuzz import fuzz
 
@@ -15,9 +15,13 @@ from heliot_terms.fallback.fuzzy.candidate_extractor import (
     CandidateExtractorConfig,
     ResidualCandidateExtractor,
 )
-from heliot_terms.fallback.fuzzy.models import FuzzyScoredSuggestion, FuzzyTextCandidate
+from heliot_terms.fallback.fuzzy.models import (
+    FuzzyAcceptanceDecision,
+    FuzzyScoredSuggestion,
+    FuzzyTextCandidate,
+)
 from heliot_terms.matching.models import MatchCandidate
-
+from heliot_terms.runtime.cache import LruCache
 
 # Candidate extraction.
 MAX_NGRAM_TOKENS = 4
@@ -30,6 +34,7 @@ MIN_SHARED_NGRAMS = 2
 MIN_NGRAM_OVERLAP_RATIO = 0.35
 MAX_BLOCK_CANDIDATES = 100
 MIN_INFORMATIVE_TOKEN_DICE = 0.75
+SCORING_CACHE_SIZE = 10_000
 
 # Acceptance.
 MAX_SUGGESTIONS = 5
@@ -85,6 +90,9 @@ class NgramRapidFuzzMatcher(BaseFallbackMatcher):
                 min_score_long=MIN_SCORE_LONG,
             )
         )
+        self._decision_cache: LruCache[str, FuzzyAcceptanceDecision] = LruCache(
+            max_size=SCORING_CACHE_SIZE
+        )
 
     @classmethod
     def from_aliases(cls, aliases: list[Alias]) -> NgramRapidFuzzMatcher:
@@ -134,8 +142,7 @@ class NgramRapidFuzzMatcher(BaseFallbackMatcher):
         matches: list[MatchCandidate] = []
 
         for text_candidate in text_candidates:
-            scored_suggestions = self._score_candidate(text_candidate)
-            decision = self.acceptance_policy.decide(scored_suggestions)
+            decision = self._cached_decision_for_candidate(text_candidate)
 
             if not decision.accepted or decision.accepted_suggestion is None:
                 continue
@@ -149,6 +156,54 @@ class NgramRapidFuzzMatcher(BaseFallbackMatcher):
             )
 
         return matches
+
+    def _cached_decision_for_candidate(
+        self,
+        candidate: FuzzyTextCandidate,
+    ) -> FuzzyAcceptanceDecision:
+        """Return cached or newly computed RapidFuzz decision for a candidate.
+
+        Cached decisions are rebuilt with the current candidate span so offsets
+        remain correct across different notes.
+        """
+        cache_key = _candidate_cache_key(candidate.text)
+
+        cached_decision = self._decision_cache.get(cache_key)
+        if cached_decision is not None:
+            return self._decision_with_candidate(
+                decision=cached_decision,
+                candidate=candidate,
+            )
+
+        scored_suggestions = self._score_candidate(candidate)
+        decision = self.acceptance_policy.decide(scored_suggestions)
+
+        self._decision_cache.set(cache_key, decision)
+
+        return decision
+
+    def _decision_with_candidate(
+        self,
+        decision: FuzzyAcceptanceDecision,
+        candidate: FuzzyTextCandidate,
+    ) -> FuzzyAcceptanceDecision:
+        """Return a cached decision rebound to the current candidate span."""
+        accepted_suggestion = (
+            replace(decision.accepted_suggestion, candidate=candidate)
+            if decision.accepted_suggestion is not None
+            else None
+        )
+
+        top_suggestions = [
+            replace(suggestion, candidate=candidate)
+            for suggestion in decision.top_suggestions
+        ]
+
+        return FuzzyAcceptanceDecision(
+            accepted_suggestion=accepted_suggestion,
+            reason=decision.reason,
+            top_suggestions=top_suggestions,
+        )
 
     def _score_candidate(
         self,
@@ -397,3 +452,8 @@ def _informative_tokens(text: str) -> set[str]:
         if token not in DEFAULT_STOPWORDS
         and len(token) >= 2
     }
+
+
+def _candidate_cache_key(text: str) -> str:
+    """Return a stable cache key for a normalized RapidFuzz candidate."""
+    return " ".join(text.lower().strip().split())
